@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - 'test-vale/**'
+  pull_request:
+    paths:
+      - 'test-vale/**'
 
 jobs:
   vale:
@@ -17,5 +20,8 @@ jobs:
         with:
           files: test-vale
           version: 3.9.4
+          fail_on_error: true
+          filter_mode: diff_context
+          reporter: github-pr-review
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
