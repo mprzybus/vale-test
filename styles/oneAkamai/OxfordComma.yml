@@ -1,0 +1,7 @@
+extends: existence
+message: "Use the Oxford comma in '%s'."
+link: https://collaborate.akamai.com/confluence/display/TCSG/Punctuation#Punctuation-Commas
+level: warning
+nonword: true
+tokens:
+  - '(?:[^,]+,){1,}\s(?:\w+\s)+and'

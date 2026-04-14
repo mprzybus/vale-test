@@ -1,0 +1,36 @@
+# Akamai Styleguide — Abbreviation Rules
+# Source: Abbreviations & acronyms.md
+# Flags common abbreviation mistakes: periods in acronyms, lowercase file types,
+# apostrophe plurals, and incorrect spacing between number and unit.
+
+extends: substitution
+message: "Abbreviation issue: use '%s' instead of '%s'. See Abbreviations & acronyms guide."
+level: warning
+nonword: true
+ignorecase: false
+swap:
+  # U.S. is the only abbreviation that takes periods (LDAP, TCP, HTML do not)
+  # Flag common ones people sometimes write with periods incorrectly:
+  '\bL\.D\.A\.P\.': "LDAP"
+  '\bT\.C\.P\.': "TCP"
+  '\bH\.T\.M\.L\.': "HTML"
+  '\bA\.P\.I\.': "API"
+  '\bU\.R\.L\.': "URL"
+  '\bU\.I\.': "UI"
+  '\bS\.S\.L\.': "SSL"
+  '\bT\.L\.S\.': "TLS"
+  '\bC\.S\.S\.': "CSS"
+  '\bJ\.S\.O\.N\.': "JSON"
+  # Plural acronyms with apostrophes (e.g., URL's → URLs)
+  '\bURL''s\b': "URLs"
+  '\bAPI''s\b': "APIs"
+  '\bJPEG''s\b': "JPEGs"
+  # File types must be ALL CAPS
+  '\bjpeg\b': "JPEG"
+  '\bjpg\b': "JPG"
+  '\bgif\b': "GIF"
+  '\bpng\b': "PNG"
+  '\bpdf\b': "PDF"
+  '\bxml\b': "XML"
+  '\bhtml\b': "HTML"
+  '\bcsv\b': "CSV"

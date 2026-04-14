@@ -1,0 +1,12 @@
+# Akamai Styleguide — No Contractions with the Brand Name
+# Source: TestAkam/Contractions.yml
+# "Don't use contractions with the company name Akamai."
+# e.g., "Akamai's going to" should be "Akamai is going to"
+# See also: Contractions.yml for the general rule (use contractions in normal writing).
+
+extends: existence
+message: "Don't use contractions with 'Akamai'. Write out the full verb form (e.g., 'Akamai is going to' not 'Akamai's going to')."
+level: warning
+nonword: true
+tokens:
+  - "Akamai's (going|been|got|had|done|made|said|taken|given|come|become|started|stopped|launched|released|introduced|updated|added)"

@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://collaborate.akamai.com/confluence/display/TCSG/Cross-references
+level: error
+nonword: true
+ignorecase: true
+action:
+  name: replace
+swap:
+  click here: Learn more

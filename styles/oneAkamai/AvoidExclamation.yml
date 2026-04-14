@@ -1,0 +1,9 @@
+# Akamai Styleguide — Avoid Exclamation Points
+# Source: Punctuation.md — "Avoid altogether in documentation."
+
+extends: existence
+message: "Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues."
+level: error
+nonword: true
+tokens:
+  - '!'

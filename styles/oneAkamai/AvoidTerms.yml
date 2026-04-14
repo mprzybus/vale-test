@@ -1,0 +1,33 @@
+# Akamai Styleguide — Terms to Avoid (Miscellaneous)
+# Source: A-Z word entries, Punctuation.md, Emphasis.md
+# Flags a set of miscellaneous patterns that should be avoided or rewritten.
+# See the Akamai A–Z word guide and Punctuation guide for details.
+
+extends: existence
+message: "Flagged term: '%s'. See the Akamai style guide for the preferred alternative."
+level: warning
+nonword: true
+ignorecase: true
+tokens:
+  # and/or — rewrite to be explicit
+  - '\band/or\b'
+  # Directional references in topic-based writing
+  - '\b(see|refer to).{0,50}(below|above)\b'
+  - '\b(screenshot|table|figure|list) (below|above)\b'
+  # Incorrect symbol names
+  - '\bcurly brackets\b'
+  # Outdated / incorrect terms
+  - '\bCRT\b'
+  - '\bcentigrade\b'
+  - '\b24x7\b'
+  - '\bbps\b'
+  - '\bis comprised of\b'
+  # Akamai brand violations
+  - '\bOPEN API\b'
+  - '\bAkamaization\b'
+  - '\bAkamaites\b'
+  - '\bAkamai account representative\b'
+  - '\bthe Akamai Control Center\b'
+  - '\bthe Control Center\b'
+  # Weak / incorrect terms
+  - '\berror message\b'

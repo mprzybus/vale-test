@@ -1,0 +1,14 @@
+# Akamai Styleguide — Number Usage
+# Source: Numbers.md
+# Flags numerals used for 1–9 in running text (should be spelled out),
+# and numbers written as words when they are 10 or above (should be numerals).
+# Exceptions: measurements with units, binary/code context, UI text.
+
+extends: existence
+message: "In running text, spell out numbers one through nine. Use numerals for 10 and above."
+level: suggestion
+nonword: true
+# Flag single-digit numerals standing alone in prose (not followed by a unit abbreviation).
+# Note: This is a heuristic — review flagged instances in context.
+tokens:
+  - '(?<![.\d])\b[1-9]\b(?!\s*(TB|GB|MB|KB|ms|s|min|hr|px|pt|em|rem|%|°|cm|mm|ft|in|lb|kg|V|A|W|Hz|kHz|MHz|GHz|bit\/s|bps))\b'

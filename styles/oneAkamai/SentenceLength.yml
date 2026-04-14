@@ -1,0 +1,10 @@
+# Akamai Styleguide — Sentence Length
+# Source: TestAkam/SentenceLength.yml (better message citing 15-word guideline)
+# Merges: Akamai/SentenceLength.yml
+# Source: Task-based writing.md — "Keep your writing short. That means 15 or so words per sentence."
+
+extends: occurrence
+message: "Sentence is too long (%d words). Aim for ~15 words per sentence; split if needed."
+level: suggestion
+max: 30
+token: '\b\w+\b'

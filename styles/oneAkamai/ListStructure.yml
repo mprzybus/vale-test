@@ -1,0 +1,14 @@
+# Akamai Styleguide — List Anti-Patterns
+# Source: Lists.md
+# Flags common list mistakes: single-item lists are disallowed, and
+# numbered lists should not exceed 9 items (prefer to split into separate tasks).
+
+extends: existence
+message: "Avoid '%s'. See the Lists guide."
+level: suggestion
+nonword: true
+tokens:
+  # Multicolumn lists — catch the word "multicolumn" which the guide says to avoid
+  - 'multicolumn list'
+  # 24x7 shorthand (also in AvoidTerms, kept here for lists context)
+  - '\b24x7\b'

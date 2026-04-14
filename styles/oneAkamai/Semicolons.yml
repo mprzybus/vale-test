@@ -1,0 +1,11 @@
+# Akamai Styleguide — Avoid Semicolons
+# Source: TestAkam/AvoidSemicolons.yml (direct message)
+# Merges: Akamai/Semicolon.yml
+# Source: Punctuation.md — "Avoid using semicolons if possible. Use two short sentences instead."
+
+extends: existence
+message: "Avoid semicolons. Use two short sentences instead."
+level: suggestion
+nonword: true
+tokens:
+  - ';'

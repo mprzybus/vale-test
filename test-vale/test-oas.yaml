@@ -1,0 +1,43 @@
+openapi: 3.0.0
+info:
+  title: Test API
+  description: |
+    This API utilize the backend to provide access to all resources.
+    It is comprised of several endpoints that you can click on to view.
+    We recommend enabling caching for best performance.
+    The service is available 24x7 and uses blacklist filtering.
+
+paths:
+  /items:
+    get:
+      summary: List items
+      description: |
+        Returns a list of all items. You should not use this endpoint
+        for real-time data as it does not support polling. Firstly, authenticate
+        with the API, secondly call this endpoint. The response time is typically
+        between 100-500 milliseconds. e.g. pass the token in the Authorization header.
+      responses:
+        '200':
+          description: |
+            A successful response containing the items. Click here to view
+            the full schema. The data is returned in a backwards compatible format.
+          content:
+            application/json:
+              schema:
+                description: |
+                  The response schema for the items endpoint. This is comprised of
+                  a list of item objects. See the table below for field descriptions.
+
+  /items/{id}:
+    get:
+      summary: Get item by ID
+      description: |
+        Retrieves a single item by its ID. The item is returned as a JSON object.
+        Disabled users cannot access this endpoint without special permissions.
+        Contact he/she to request access. Always ensure the ID is valid before calling.
+      parameters:
+        - name: id
+          in: path
+          description: |
+            The unique identifier for the item. This must be a valid UUID.
+            An URL for the item is returned in the response.

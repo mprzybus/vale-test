@@ -1,0 +1,9 @@
+extends: existence
+message: "Always spell out the name of the month."
+link: https://collaborate.akamai.com/confluence/display/TCSG/D#D-dates
+ignorecase: true
+level: error
+nonword: true
+
+tokens:
+  - '\b\d{1,2}/\d{1,2}/(?:\d{4}|\d{2})\b'

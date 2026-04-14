@@ -1,0 +1,10 @@
+extends: existence
+message: "In general, don't use an ellipsis."
+link: https://collaborate.akamai.com/confluence/display/TCSG/E#E-ellipsispoints
+nonword: true
+level: warning
+
+action:
+  name: remove
+tokens:
+  - '\.\.\.'

@@ -1,0 +1,28 @@
+# Akamai Styleguide — Preferred Spellings
+# Source: A-Z word entries, B.md, C.md, etc.
+# Catches common misspellings or non-preferred forms mandated by the Akamai style guide.
+
+extends: substitution
+message: "Use the preferred spelling '%s' instead of '%s'."
+level: warning
+nonword: true
+ignorecase: false
+swap:
+  # A
+  '\bafterwards\b': "afterward"
+  '\bappendices\b': "appendixes"
+  # B
+  '\bbackwards\b': "backward"
+  '\bbackslash\b': "backslash"
+  '\bbroadband\b': "broadband"
+  '\bbrowseable\b': "browsable"
+  # C
+  '\bcan not\b': "cannot"
+  '\bcheckmark\b': "checkmark"
+  '\bchecksum\b': "checksum"
+  '\bcheckbox\b': "checkbox"
+  '\bcybersecurity\b': "cybersecurity"
+  # D
+  # E
+  # Others
+  '\bbottommost\b': "bottommost"

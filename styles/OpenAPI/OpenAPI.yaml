@@ -1,0 +1,5 @@
+BasedOnStyles: markdown
+
+Blocks:
+  description: |
+    (?msi)^\s*description:\s*(?:\|[ \t]*\n+)?(?P<description>(?:^[ \t]+.*\n?)+)

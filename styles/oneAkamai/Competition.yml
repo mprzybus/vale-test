@@ -1,0 +1,16 @@
+extends: existence
+message: "Mention of competition (such as '%s') needs legal revisions."
+level: error
+nonword: true
+ignorecase: true
+tokens:
+  - Cloudflare
+  - Fastly
+  - Amazon
+  - AWS
+  - Google
+  - GCP
+  - Microsoft
+  - Azure
+
+

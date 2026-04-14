@@ -1,0 +1,8 @@
+extends: existence
+message: "Capitalize '%s'."
+link: https://collaborate.akamai.com/confluence/display/TCSG/Punctuation#Punctuation-Colons
+nonword: true
+level: error
+scope: heading
+tokens:
+  - ':\s[a-z]'

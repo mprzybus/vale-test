@@ -1,0 +1,25 @@
+extends: existence
+message: "Verify your use of '%s' with the A-Z word list."
+link: 'https://docs.microsoft.com/en-us/style-guide/a-z-word-list-term-collections/a/abort-abortion'
+level: suggestion
+nonword: true
+ignorecase: true
+
+tokens:
+  - '\babove\b'
+  - '\baccessible\b'
+  - '\bactionable\b'
+  - '\bagainst\b'
+  - '\balarm\b'
+  - '\balert\b'
+  - '\balias\b'
+  - '\ballows?\b'
+  - '\bassure\b'
+  - '\bauthor\b'
+  - '\bavg\b'
+  - '\bensure\b'
+  - '\bhe\b'
+  - '\binsure\b'
+  - '\bshe\b'
+  - '\bsample\b'
+  - '\bbeta\b'

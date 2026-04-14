@@ -1,0 +1,28 @@
+# Akamai Styleguide — UI Interaction Verbs
+# Source: User actions.md
+# Enforces correct verb usage when describing user interactions with the UI.
+
+extends: substitution
+message: "Use '%s' instead of '%s' for UI interactions. See the User actions guide."
+level: warning
+nonword: true
+ignorecase: true
+swap:
+  # click
+  '\bclick on\b': "click"
+  '\bdouble-click on\b': "double-click"
+  '\bright-click on\b': "right-click"
+  '\bunclick\b': "deselect"
+
+  # select vs. choose
+  '\bchoose\b': "select (when picking among UI options like checkboxes, radio buttons, or dropdowns)"
+
+  # enter vs. type
+  '\btype\b': "enter (when directing users to input text in a field)"
+
+  # press vs. hit
+  '\bhit (the |a )?(Enter|Escape|Esc|Tab|Space|Backspace|Delete|Return|Ctrl|Alt|Shift|key)\b': "press"
+
+  # check/uncheck vs. select/deselect
+  '\bcheck the\b': "select the (for checkboxes)"
+  '\buncheck the\b': "deselect the (for checkboxes)"

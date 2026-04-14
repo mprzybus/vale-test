@@ -1,0 +1,77 @@
+# Akamai Styleguide — Heading Capitalization (Sentence Style)
+# Source: TestAkam/Headings.yml (more complete Akamai-specific exceptions)
+# Merges: Akamai/Headings.yml
+# Akamai uses sentence-style capitalization for headings: only the first word
+# and proper nouns should be capitalized.
+
+extends: capitalization
+message: "Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns."
+link: https://collaborate.akamai.com/confluence/display/TCSG/H#H-headingstalk-182631
+level: warning
+scope: heading
+match: $sentence
+indicators:
+  - ':'
+exceptions:
+  # Akamai product/brand names
+  - Akamai
+  - Control Center
+  - Luna
+  - Cloudlet
+  - Cloudlets
+  - CPS
+  # Acronyms and tech terms
+  - API
+  - APIs
+  - URL
+  - URLs
+  - HTML
+  - JSON
+  - XML
+  - UI
+  - TLS
+  - SSL
+  - HTTP
+  - HTTPS
+  - TCP
+  - UDP
+  - IP
+  - DNS
+  - CDN
+  - CLI
+  - SDK
+  - DITA
+  - ISO
+  # Proper nouns — OS, platforms, languages
+  - U.S.
+  - Microsoft
+  - Apple
+  - Linux
+  - Windows
+  - Mac
+  - macOS
+  - iOS
+  - Android
+  - Azure
+  - Docker
+  - Kubernetes
+  - TypeScript
+  # Browser names
+  - Chrome
+  - Firefox
+  - Safari
+  - Edge
+  # Other
+  - Bluetooth
+  - Active Directory
+  - AD
+  - Boolean
+  - I
+  - VS
+  - Visual
+  - Studio
+  - MongoDB
+  - Cosmos
+  - Emmet
+  - REPL
+  - Marketplace

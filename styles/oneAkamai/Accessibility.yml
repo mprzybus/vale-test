@@ -1,0 +1,27 @@
+extends: existence
+message: "Don't use language (such as '%s') that defines people by their disability."
+link: https://collaborate.akamai.com/confluence/display/TCSG/F#F-fairlanguage
+
+level: suggestion
+nonword: true
+ignorecase: true
+tokens:
+  - a victim of
+  - able-bodied
+  - affected by
+  - an epileptic
+  - crippled
+  - disabled
+  - dumb
+  - handicapped
+  - handicaps
+  - healthy
+  - lame
+  - maimed
+  - missing a limb
+  - mute
+  - normal
+  - sight-impaired
+  - stricken with
+  - suffers from
+  - vision-impaired

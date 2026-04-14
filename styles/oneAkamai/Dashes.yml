@@ -1,0 +1,14 @@
+extends: existence
+message: "Remove the spaces around '%s'."
+link: https://collaborate.akamai.com/confluence/display/TCSG/D#D-dashes
+ignorecase: true
+nonword: true
+
+level: error
+action:
+  name: edit
+  params:
+    - remove
+    - ' '
+tokens:
+  - '\s[—–]\s'

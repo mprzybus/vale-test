@@ -1,0 +1,8 @@
+extends: existence
+message: "Avoid using acronyms in a title or heading."
+link: https://collaborate.akamai.com/confluence/pages/viewpage.action?pageId=110322649
+level: warning
+nonword: true
+scope: heading
+tokens:
+  - '[A-Z]{2,4}'

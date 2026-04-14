@@ -1,0 +1,20 @@
+extends: existence
+message: "Don't use language (such as '%s') that is extreme."
+link: https://collaborate.akamai.com/confluence/display/TCSG/R#R-recommend
+
+level: suggestion
+nonword: true
+ignorecase: true
+tokens:
+  - always
+  - never
+  - best
+  - promise
+  - improve
+  - recommend
+  - significant
+  - superior
+  - complete
+  - leading
+  - unique
+  - highest

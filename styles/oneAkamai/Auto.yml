@@ -1,0 +1,13 @@
+extends: existence
+message: "In general, don't hyphenate '%s'."
+link: https://collaborate.akamai.com/confluence/display/TCSG/H#H-hyphenation
+ignorecase: true
+
+level: error
+nonword: true
+action:
+  name: convert
+  params:
+    - simple
+tokens:
+  - 'auto-\w+'

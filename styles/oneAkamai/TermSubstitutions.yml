@@ -1,0 +1,33 @@
+# Akamai Styleguide — Term Substitutions
+# Source: TestAkam/TermSubstitutions.yml (deduplicated)
+# Flags specific terms and suggests preferred replacements per the Akamai A–Z word guide.
+# Note: UI interaction verbs (click, select, enter, press, check) → UIActions.yml
+# Note: Common spelling preferences (backwards, can not, etc.)  → Spelling.yml
+# Note: 24x7 → AvoidTerms.yml
+
+extends: substitution
+message: "Use '%s' instead of '%s'. See the Akamai A–Z word guide."
+level: warning
+nonword: true
+ignorecase: true
+action:
+  name: replace
+swap:
+  '\babort\b': "exit, interrupt, quit, or stop"
+  '\bblacklist\b': "blocklist"
+  '\bblacklisted\b': "blocklisted"
+  '\bblacklisting\b': "blocklisting"
+  '\bwhitelist\b': "allowlist"
+  '\bwhitelisted\b': "allowlisted"
+  '\bwhitelisting\b': "allowlisting"
+  '\bbug\b': "problem or limitation"
+  '\bcrash\b': "quits unexpectedly or stops responding"
+  '\bcrashes\b': "quits unexpectedly"
+  '\bcrashed\b': "stopped responding"
+  '\bcrashing\b': "stopping responding"
+  '\bprogram\b': "app"
+  '\butilize\b': "use"
+  '\butilizes\b': "uses"
+  '\butilized\b': "used"
+  '\butilizing\b': "using"
+  '\bcentigrade\b': "Celsius"
