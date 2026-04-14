@@ -1,0 +1,21 @@
+name: Vale Lint
+
+on:
+  push:
+    paths:
+      - 'test-vale/**'
+
+jobs:
+  vale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Vale
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          files: test-vale
+          version: 3.9.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
