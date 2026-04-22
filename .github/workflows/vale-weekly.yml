@@ -1,0 +1,59 @@
+name: Vale Weekly Full Check
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  vale-weekly:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set date
+        id: date
+        run: echo "DATE=$(date +'%-d-%m-%Y')" >> "$GITHUB_OUTPUT"
+
+      - name: Install Vale
+        run: |
+          wget -q https://github.com/errata-ai/vale/releases/download/v3.9.4/vale_3.9.4_Linux_64-bit.tar.gz
+          tar -xzf vale_3.9.4_Linux_64-bit.tar.gz
+          sudo mv vale /usr/local/bin/
+
+      - name: Run Vale on full doc set
+        run: |
+          mkdir -p vale-checks
+          vale --output=line test-vale/ > vale-checks/new-results.txt 2>&1 || true
+
+      - name: Diff against previous results and save
+        run: |
+          DATE="${{ steps.date.outputs.DATE }}"
+          NEW="vale-checks/new-results.txt"
+          LATEST="vale-checks/latest.txt"
+
+          if [ -f "$LATEST" ]; then
+            diff "$LATEST" "$NEW" > "vale-checks/diff-${DATE}.txt" || true
+            echo "Diff saved to vale-checks/diff-${DATE}.txt"
+          else
+            echo "No previous results found — skipping diff on first run."
+          fi
+
+          cp "$NEW" "$LATEST"
+          rm "$NEW"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add vale-checks/
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "chore: vale weekly check ${{ steps.date.outputs.DATE }}"
+          git push

@@ -1,4 +1,4 @@
-name: Vale Lint
+name: Vale Lint (diff only)
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         with:
           files: 'test-vale/**'
 
-      - name: Run Vale
+      - name: Run Vale on changed files only
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: errata-ai/vale-action@reviewdog
         with:
