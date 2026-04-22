@@ -1,0 +1,642 @@
+test-vale/POC.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/POC.md:1:3:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/POC.md:2:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=43) words). Aim for ~15 words per sentence; split if needed.
+test-vale/POC.md:2:29:oneAkamai.Abbreviations:Abbreviation issue: use 'CSV' instead of 'csv'. See Abbreviations & acronyms guide.
+test-vale/POC.md:2:42:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+test-vale/POC.md:2:135:oneAkamai.Passive:'was done' looks like passive voice.
+test-vale/POC.md:2:150:oneAkamai.Adverbs:Consider removing 'quickly'.
+test-vale/POC.md:2:160:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/POC.md:2:209:oneAkamai.Acronyms:'SIEM' has no definition.
+test-vale/POC.md:2:214:oneAkamai.Contractions:Use 'isn't' instead of 'is not'.
+test-vale/POC.md:4:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=35) words). Aim for ~15 words per sentence; split if needed.
+test-vale/POC.md:4:75:oneAkamai.Wordiness:Consider using 'assigned to' instead of 'associated with'.
+test-vale/POC.md:4:105:oneAkamai.Contractions:Use 'aren't' instead of 'are not'.
+test-vale/POC.md:4:153:oneAkamai.Spacing:'e. A' should have one space.
+test-vale/POC.md:4:175:oneAkamai.Spacing:'s l' should have one space.
+test-vale/POC.md:4:187:oneAkamai.TermSubstitutions:Use 'exit, interrupt, quit, or stop' instead of 'abort'. See the Akamai A–Z word guide.
+test-vale/POC.md:4:193:oneAkamai.Avoid:Don't use 'backend'.
+test-vale/POC.md:6:1:oneAkamai.OxfordComma:Use the Oxford comma in 'I list one thing, second thing and'.
+test-vale/POC.md:6:1:oneAkamai.FirstPerson:Use first person (such as 'I ') sparingly.
+test-vale/POC.md:8:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/POC.md:17:44:oneAkamai.References:Use 'Learn more' instead of 'Click here'.
+test-vale/POC.md:21:5:oneAkamai.Classification:Don't use language (such as 'never') that is extreme.
+test-vale/POC.md:21:22:oneAkamai.Classification:Don't use language (such as 'always') that is extreme.
+test-vale/POC.md:21:38:oneAkamai.Competition:Mention of competition (such as 'Cloudflare') needs legal revisions.
+test-vale/POC.md:21:66:oneAkamai.Foreign:Use 'for example' instead of 'e.g.'.
+test-vale/test-headings.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:7:26:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-headings.md:9:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:11:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:11:23:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-headings.md:13:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:15:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+test-vale/test-headings.md:17:22:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-headings.md:17:27:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-headings.md:19:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:19:18:oneAkamai.HeadingColons:Capitalize ': t'.
+test-vale/test-headings.md:21:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:21:19:oneAkamai.HeadingColons:Capitalize ': h'.
+test-vale/test-headings.md:23:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:23:18:oneAkamai.HeadingColons:Capitalize ': w'.
+test-vale/test-headings.md:25:23:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-headings.md:27:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:27:19:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+test-vale/test-headings.md:29:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:29:30:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+test-vale/test-headings.md:31:31:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+test-vale/test-headings.md:31:32:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+test-vale/test-headings.md:33:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:35:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:35:14:oneAkamai.Acronyms:'TLS' has no definition.
+test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-headings.md:35:22:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-headings.md:37:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:37:19:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-headings.md:37:19:oneAkamai.Acronyms:'DNS' has no definition.
+test-vale/test-headings.md:39:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:39:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-headings.md:41:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-headings.md:41:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:3:31:oneAkamai.Acronyms:'AMPM' has no definition.
+test-vale/test-abbreviations-acronyms.md:7:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-abbreviations-acronyms.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=57) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-abbreviations-acronyms.md:9:5:oneAkamai.Abbreviations:Abbreviation issue: use 'LDAP' instead of 'L.D.A.P.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:9:21:oneAkamai.Passive:'is used' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:9:24:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-abbreviations-acronyms.md:10:15:oneAkamai.Abbreviations:Abbreviation issue: use 'API' instead of 'A.P.I.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:11:8:oneAkamai.Abbreviations:Abbreviation issue: use 'TLS' instead of 'T.L.S.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:12:5:oneAkamai.Abbreviations:Abbreviation issue: use 'URL' instead of 'U.R.L.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:12:13:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-abbreviations-acronyms.md:13:10:oneAkamai.Abbreviations:Abbreviation issue: use 'CSS' instead of 'C.S.S.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:14:5:oneAkamai.Abbreviations:Abbreviation issue: use 'JSON' instead of 'J.S.O.N.'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:14:22:oneAkamai.Passive:'is returned' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:16:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:16:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.Abbreviations:Abbreviation issue: use 'URLs' instead of 'URL's'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-abbreviations-acronyms.md:18:12:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-abbreviations-acronyms.md:18:16:oneAkamai.Passive:'be validated' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:19:5:oneAkamai.Abbreviations:Abbreviation issue: use 'APIs' instead of 'API's'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:19:29:oneAkamai.Acronyms:'REST' has no definition.
+test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Abbreviations:Abbreviation issue: use 'JPEGs' instead of 'JPEG's'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Acronyms:'JPEG' has no definition.
+test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.Passive:'were uploaded' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-abbreviations-acronyms.md:20:33:oneAkamai.Acronyms:'CDN' has no definition.
+test-vale/test-abbreviations-acronyms.md:22:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-abbreviations-acronyms.md:22:22:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-abbreviations-acronyms.md:24:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=35) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-abbreviations-acronyms.md:24:12:oneAkamai.Abbreviations:Abbreviation issue: use 'JPEG' instead of 'jpeg'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:25:14:oneAkamai.Abbreviations:Abbreviation issue: use 'PDF' instead of 'pdf'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:26:5:oneAkamai.Abbreviations:Abbreviation issue: use 'XML' instead of 'xml'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:26:16:oneAkamai.Passive:'is parsed' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:27:22:oneAkamai.Abbreviations:Abbreviation issue: use 'CSV' instead of 'csv'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:28:9:oneAkamai.Abbreviations:Abbreviation issue: use 'PNG' instead of 'png'. See Abbreviations & acronyms guide.
+test-vale/test-abbreviations-acronyms.md:30:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:30:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:30:7:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.Acronyms:'AMPM' has no definition.
+test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:32:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=35) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-abbreviations-acronyms.md:32:34:oneAkamai.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test-vale/test-abbreviations-acronyms.md:32:50:oneAkamai.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test-vale/test-abbreviations-acronyms.md:33:23:oneAkamai.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test-vale/test-abbreviations-acronyms.md:33:28:oneAkamai.Adverbs:Consider removing 'very'.
+test-vale/test-abbreviations-acronyms.md:34:12:oneAkamai.Passive:'is generated' looks like passive voice.
+test-vale/test-abbreviations-acronyms.md:34:28:oneAkamai.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test-vale/test-abbreviations-acronyms.md:35:22:oneAkamai.AMPM:Use 'AM' or 'PM' (preceded by a space).
+test-vale/test-abbreviations-acronyms.md:37:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:39:5:oneAkamai.Acronyms:'SIEM' has no definition.
+test-vale/test-abbreviations-acronyms.md:39:47:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-abbreviations-acronyms.md:40:11:oneAkamai.Acronyms:'RBAC' has no definition.
+test-vale/test-abbreviations-acronyms.md:41:5:oneAkamai.Acronyms:'WAF' has no definition.
+test-vale/test-abbreviations-acronyms.md:41:23:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-abbreviations-acronyms.md:42:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-abbreviations-acronyms.md:42:5:oneAkamai.Acronyms:'OIDC' has no definition.
+test-vale/test-abbreviations-acronyms.md:44:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-abbreviations-acronyms.md:46:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:48:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-abbreviations-acronyms.md:48:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:50:5:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-abbreviations-acronyms.md:50:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:3:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:3:54:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:7:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:9:13:oneAkamai.Passive:'was released' looks like passive voice.
+test-vale/test-dates-numbers.md:9:29:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '31 July 2023'.
+test-vale/test-dates-numbers.md:10:28:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:10:28:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '1 March 2025'.
+test-vale/test-dates-numbers.md:11:33:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '15 September 2024'.
+test-vale/test-dates-numbers.md:11:41:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:13:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:15:11:oneAkamai.Passive:'is scheduled' looks like passive voice.
+test-vale/test-dates-numbers.md:15:28:oneAkamai.DateOrder:Always spell out the name of the month.
+test-vale/test-dates-numbers.md:16:19:oneAkamai.DateOrder:Always spell out the name of the month.
+test-vale/test-dates-numbers.md:17:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-dates-numbers.md:17:16:oneAkamai.DateOrder:Always spell out the name of the month.
+test-vale/test-dates-numbers.md:19:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:19:8:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:19:21:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:19:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:21:17:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+test-vale/test-dates-numbers.md:22:22:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+test-vale/test-dates-numbers.md:23:24:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+test-vale/test-dates-numbers.md:23:28:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:25:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:25:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:25:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:25:25:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+test-vale/test-dates-numbers.md:25:39:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-dates-numbers.md:27:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:28:13:oneAkamai.Passive:'is set' looks like passive voice.
+test-vale/test-dates-numbers.md:29:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-dates-numbers.md:29:5:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:30:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:32:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:32:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:34:17:oneAkamai.Classification:Don't use language (such as 'improve') that is extreme.
+test-vale/test-dates-numbers.md:34:29:oneAkamai.Percentages:Use a numeral plus the units.
+test-vale/test-dates-numbers.md:35:27:oneAkamai.Percentages:Use a numeral plus the units.
+test-vale/test-dates-numbers.md:36:26:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-dates-numbers.md:36:32:oneAkamai.Percentages:Use a numeral plus the units.
+test-vale/test-dates-numbers.md:38:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-dates-numbers.md:38:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:40:18:oneAkamai.Contractions:Use 'it's' instead of 'it is'.
+test-vale/test-dates-numbers.md:41:22:oneAkamai.Units:Don't spell out the number in 'three meters'.
+test-vale/test-dates-numbers.md:42:12:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-dates-numbers.md:42:19:oneAkamai.Units:Don't spell out the number in 'two kilograms'.
+test-vale/test-dates-numbers.md:43:15:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-dates-numbers.md:43:30:oneAkamai.Units:Don't spell out the number in 'ten meters'.
+test-vale/test-dates-numbers.md:45:14:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:45:19:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:47:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+test-vale/test-dates-numbers.md:48:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+test-vale/test-dates-numbers.md:48:22:oneAkamai.Acronyms:'DNS' has no definition.
+test-vale/test-dates-numbers.md:49:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+test-vale/test-dates-numbers.md:51:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:51:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:53:11:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-dates-numbers.md:53:11:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-dates-numbers.md:54:20:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:54:20:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-dates-numbers.md:54:20:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-dates-numbers.md:55:7:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-dates-numbers.md:55:7:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-dates-numbers.md:55:17:oneAkamai.Passive:'are reserved' looks like passive voice.
+test-vale/test-dates-numbers.md:57:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:59:9:oneAkamai.We:Try to avoid using first-person plural like 'ours'.
+test-vale/test-dates-numbers.md:59:20:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-5 PM'.
+test-vale/test-dates-numbers.md:59:23:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:60:37:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-4 AM'.
+test-vale/test-dates-numbers.md:62:15:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-dates-numbers.md:62:20:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-dates-numbers.md:64:19:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+test-vale/test-dates-numbers.md:64:44:oneAkamai.Vocab:Verify your use of 'alert' with the A-Z word list.
+test-vale/test-dates-numbers.md:65:20:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+test-vale/test-dates-numbers.md:65:22:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-dates-numbers.md:65:34:oneAkamai.ComplexWords:Consider using 'change' instead of 'adjustment'.
+test-vale/test-dates-numbers.md:65:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:3:25:oneAkamai.Avoid:Don't use 'Backend'.
+test-vale/test-grammar.md:3:119:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=39) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:9:12:oneAkamai.Adverbs:Consider removing 'easily'.
+test-vale/test-grammar.md:10:14:oneAkamai.Adverbs:Consider removing 'quickly'.
+test-vale/test-grammar.md:12:17:oneAkamai.Adverbs:Consider removing 'rapidly'.
+test-vale/test-grammar.md:15:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:15:4:oneAkamai.Avoid:Don't use 'Backend'.
+test-vale/test-grammar.md:15:22:oneAkamai.Avoid:Don't use 'Backend'.
+test-vale/test-grammar.md:17:5:oneAkamai.Avoid:Don't use 'backend'.
+test-vale/test-grammar.md:18:11:oneAkamai.Backend:Use 'back end' instead of 'back-end'.
+test-vale/test-grammar.md:19:16:oneAkamai.Avoid:Don't use 'backend'.
+test-vale/test-grammar.md:19:24:oneAkamai.Passive:'are reflected' looks like passive voice.
+test-vale/test-grammar.md:21:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:21:16:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-grammar.md:21:19:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:23:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=39) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:23:12:oneAkamai.Contractions:Use 'doesn't' instead of 'does not'.
+test-vale/test-grammar.md:24:5:oneAkamai.Contractions:Use 'shouldn't' instead of 'should not'.
+test-vale/test-grammar.md:25:1:oneAkamai.Contractions:Use 'it's' instead of 'It is'.
+test-vale/test-grammar.md:25:29:oneAkamai.ComplexWords:Consider using 'many' instead of 'multiple'.
+test-vale/test-grammar.md:26:13:oneAkamai.Contractions:Use 'isn't' instead of 'is not'.
+test-vale/test-grammar.md:27:8:oneAkamai.Contractions:Use 'aren't' instead of 'are not'.
+test-vale/test-grammar.md:29:16:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-grammar.md:31:1:oneAkamai.AkamaiContractions:Don't use contractions with 'Akamai'. Write out the full verb form (e.g., 'Akamai is going to' not 'Akamai's going to').
+test-vale/test-grammar.md:32:1:oneAkamai.AkamaiContractions:Don't use contractions with 'Akamai'. Write out the full verb form (e.g., 'Akamai is going to' not 'Akamai's going to').
+test-vale/test-grammar.md:33:1:oneAkamai.AkamaiContractions:Don't use contractions with 'Akamai'. Write out the full verb form (e.g., 'Akamai is going to' not 'Akamai's going to').
+test-vale/test-grammar.md:33:15:oneAkamai.Classification:Don't use language (such as 'significant') that is extreme.
+test-vale/test-grammar.md:33:43:oneAkamai.ComplexWords:Consider using 'part' instead of 'component'.
+test-vale/test-grammar.md:35:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:37:1:oneAkamai.OxfordComma:Use the Oxford comma in 'Configure the origin, update the DNS settings and test the connection. The report includes errors, warnings and suggestions. You can use certificates, API keys and tokens. The system supports HTTP, HTTPS and'.
+test-vale/test-grammar.md:37:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=34) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:37:34:oneAkamai.Acronyms:'DNS' has no definition.
+test-vale/test-grammar.md:39:9:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:40:37:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-grammar.md:40:38:oneAkamai.Terms:Prefer 'EB' over 'eb'.
+test-vale/test-grammar.md:42:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=33) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:44:19:oneAkamai.Passive:'is updated' looks like passive voice.
+test-vale/test-grammar.md:45:10:oneAkamai.Passive:'are processed' looks like passive voice.
+test-vale/test-grammar.md:46:17:oneAkamai.Passive:'was generated' looks like passive voice.
+test-vale/test-grammar.md:47:6:oneAkamai.Passive:'are stored' looks like passive voice.
+test-vale/test-grammar.md:49:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:51:21:oneAkamai.ComplexWords:Consider using 'give' or 'offer' instead of 'provide'.
+test-vale/test-grammar.md:51:67:oneAkamai.Adverbs:Consider removing 'very'.
+test-vale/test-grammar.md:51:110:oneAkamai.ComplexWords:Consider using 'speed up' instead of 'accelerate'.
+test-vale/test-grammar.md:51:138:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-grammar.md:51:139:oneAkamai.Terms:Prefer 'EB' over 'eb'.
+test-vale/test-grammar.md:51:184:oneAkamai.Adverbs:Consider removing 'very'.
+test-vale/test-grammar.md:53:1:oneAkamai.OxfordComma:Use the Oxford comma in 'When configuring the origin server, it is important to ensure that the hostname, port, and protocol are all set correctly before you save and'.
+test-vale/test-grammar.md:53:37:oneAkamai.Contractions:Use 'it's' instead of 'it is'.
+test-vale/test-grammar.md:53:56:oneAkamai.Vocab:Verify your use of 'ensure' with the A-Z word list.
+test-vale/test-grammar.md:55:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:57:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=33) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:57:34:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+test-vale/test-grammar.md:57:61:oneAkamai.Classification:Don't use language (such as 'significant') that is extreme.
+test-vale/test-grammar.md:58:27:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:58:34:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+test-vale/test-grammar.md:58:54:oneAkamai.ComplexWords:Consider using 'has' instead of 'contains'.
+test-vale/test-grammar.md:59:22:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+test-vale/test-grammar.md:61:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:61:5:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:61:24:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-grammar.md:63:28:oneAkamai.Suspended:Don't use 'short- and long-' unless space is limited.
+test-vale/test-grammar.md:64:15:oneAkamai.Suspended:Don't use 'read- and write-' unless space is limited.
+test-vale/test-grammar.md:66:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:68:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=32) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-grammar.md:68:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-grammar.md:68:17:oneAkamai.Foreign:Use 'for example' instead of 'e.g.'.
+test-vale/test-grammar.md:68:22:oneAkamai.AvoidTerms:Flagged term: 'the Control Center'. See the Akamai style guide for the preferred alternative.
+test-vale/test-grammar.md:68:53:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-grammar.md:69:22:oneAkamai.ComplexWords:Consider using 'many' instead of 'multiple'.
+test-vale/test-grammar.md:69:42:oneAkamai.Foreign:Use 'that is' instead of 'i.e.'.
+test-vale/test-grammar.md:70:23:oneAkamai.Foreign:Use 'for example' instead of 'e.g.'.
+test-vale/test-grammar.md:72:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:72:14:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-grammar.md:72:17:oneAkamai.References:Use 'Learn more' instead of 'click here'.
+test-vale/test-grammar.md:74:1:oneAkamai.References:Use 'Learn more' instead of 'Click here'.
+test-vale/test-grammar.md:75:1:oneAkamai.References:Use 'Learn more' instead of 'Click here'.
+test-vale/test-grammar.md:77:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-grammar.md:79:1:oneAkamai.Vocab:Verify your use of 'Ensure' with the A-Z word list.
+test-vale/test-grammar.md:80:1:oneAkamai.Vocab:Verify your use of 'Insure' with the A-Z word list.
+test-vale/test-grammar.md:80:26:oneAkamai.Passive:'been saved' looks like passive voice.
+test-vale/test-grammar.md:81:5:oneAkamai.Vocab:Verify your use of 'above' with the A-Z word list.
+test-vale/test-grammar.md:81:17:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-lists-structure.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-lists-structure.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-lists-structure.md:3:33:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-lists-structure.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-lists-structure.md:9:7:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-lists-structure.md:9:15:oneAkamai.ListStructure:Avoid 'multicolumn list'. See the Lists guide.
+test-vale/test-lists-structure.md:9:64:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+test-vale/test-lists-structure.md:9:66:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-lists-structure.md:11:4:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+test-vale/test-lists-structure.md:11:4:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+test-vale/test-lists-structure.md:13:26:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+test-vale/test-lists-structure.md:13:26:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+test-vale/test-lists-structure.md:13:47:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-lists-structure.md:17:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-lists-structure.md:17:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-lists-structure.md:17:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-lists-structure.md:19:25:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:19:25:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-lists-structure.md:20:16:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-lists-structure.md:21:11:oneAkamai.Acronyms:'TTL' has no definition.
+test-vale/test-lists-structure.md:21:22:oneAkamai.Passive:'be bet' looks like passive voice.
+test-vale/test-lists-structure.md:21:28:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-lists-structure.md:21:33:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-lists-structure.md:27:1:oneAkamai.OxfordComma:Use the Oxford comma in 'To complete the setup, configure the origin, update the DNS record and activate the rule. The platform supports caching, load balancing and traffic routing. Assign roles to developers, administrators and'.
+test-vale/test-lists-structure.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-lists-structure.md:27:4:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-lists-structure.md:27:57:oneAkamai.Acronyms:'DNS' has no definition.
+test-vale/test-lists-structure.md:33:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-lists-structure.md:33:46:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+test-vale/test-lists-structure.md:35:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:36:1:oneAkamai.UIActions:Use 'select (when picking among UI options like checkboxes, radio buttons, or dropdowns)' instead of 'Choose' for UI interactions. See the User actions guide.
+test-vale/test-lists-structure.md:36:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:36:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:37:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:37:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-lists-structure.md:38:24:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:42:10:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-lists-structure.md:44:8:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-lists-structure.md:44:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:44:8:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-lists-structure.md:44:10:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-lists-structure.md:44:13:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-lists-structure.md:44:17:oneAkamai.Passive:'be spelled' looks like passive voice.
+test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-lists-structure.md:45:36:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-avoid-terms.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:3:97:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-avoid-terms.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=34) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-avoid-terms.md:9:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-avoid-terms.md:9:18:oneAkamai.Avoid:Don't use 'as well as'.
+test-vale/test-avoid-terms.md:9:21:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-avoid-terms.md:10:5:oneAkamai.Avoid:Don't use 'backbone'.
+test-vale/test-avoid-terms.md:10:8:oneAkamai.Terms:Prefer 'KB' over 'kb'.
+test-vale/test-avoid-terms.md:11:13:oneAkamai.Avoid:Don't use 'application developer'.
+test-vale/test-avoid-terms.md:12:25:oneAkamai.Avoid:Don't use 'and/or'.
+test-vale/test-avoid-terms.md:12:25:oneAkamai.AvoidTerms:Flagged term: 'and/or'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:14:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:16:30:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+test-vale/test-avoid-terms.md:17:10:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-avoid-terms.md:17:29:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+test-vale/test-avoid-terms.md:19:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:21:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-avoid-terms.md:21:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=67) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-avoid-terms.md:21:17:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:21:17:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+test-vale/test-avoid-terms.md:21:40:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:21:43:oneAkamai.ComplexWords:Consider using 'check' or 'watch' instead of 'monitor'.
+test-vale/test-avoid-terms.md:22:1:oneAkamai.AvoidTerms:Flagged term: 'See the table below'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:23:1:oneAkamai.AvoidTerms:Flagged term: 'Refer to the figure above'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:23:21:oneAkamai.Vocab:Verify your use of 'above' with the A-Z word list.
+test-vale/test-avoid-terms.md:24:12:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:24:12:oneAkamai.Passive:'is comprised' looks like passive voice.
+test-vale/test-avoid-terms.md:24:15:oneAkamai.ComplexWords:Consider using 'form' or 'include' instead of 'comprise'.
+test-vale/test-avoid-terms.md:24:39:oneAkamai.ComplexWords:Consider using 'part' instead of 'component'.
+test-vale/test-avoid-terms.md:25:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-avoid-terms.md:25:5:oneAkamai.AvoidTerms:Flagged term: 'curly brackets'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:26:12:oneAkamai.AvoidTerms:Flagged term: 'error message'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:26:31:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:27:13:oneAkamai.AvoidTerms:Flagged term: 'Akamai account representative'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:28:11:oneAkamai.AvoidTerms:Flagged term: 'the Akamai Control Center'. See the Akamai style guide for the preferred alternative.
+test-vale/test-avoid-terms.md:30:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:32:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-avoid-terms.md:32:1:oneAkamai.Competition:Mention of competition (such as 'Cloudflare') needs legal revisions.
+test-vale/test-avoid-terms.md:32:12:oneAkamai.ComplexWords:Consider using 'give' or 'offer' instead of 'provide'.
+test-vale/test-avoid-terms.md:33:8:oneAkamai.Competition:Mention of competition (such as 'AWS') needs legal revisions.
+test-vale/test-avoid-terms.md:33:8:oneAkamai.Acronyms:'AWS' has no definition.
+test-vale/test-avoid-terms.md:34:5:oneAkamai.Competition:Mention of competition (such as 'Azure') needs legal revisions.
+test-vale/test-avoid-terms.md:35:1:oneAkamai.Competition:Mention of competition (such as 'Fastly') needs legal revisions.
+test-vale/test-avoid-terms.md:35:37:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-avoid-terms.md:35:40:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:37:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:39:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=36) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-avoid-terms.md:39:13:oneAkamai.Classification:Don't use language (such as 'best') that is extreme.
+test-vale/test-avoid-terms.md:40:14:oneAkamai.Classification:Don't use language (such as 'always') that is extreme.
+test-vale/test-avoid-terms.md:40:21:oneAkamai.Classification:Don't use language (such as 'improve') that is extreme.
+test-vale/test-avoid-terms.md:41:19:oneAkamai.Classification:Don't use language (such as 'leading') that is extreme.
+test-vale/test-avoid-terms.md:41:27:oneAkamai.ComplexWords:Consider using 'give' or 'offer' instead of 'provide'.
+test-vale/test-avoid-terms.md:41:39:oneAkamai.Acronyms:'CDN' has no definition.
+test-vale/test-avoid-terms.md:42:1:oneAkamai.We:Try to avoid using first-person plural like 'Our'.
+test-vale/test-avoid-terms.md:42:5:oneAkamai.Classification:Don't use language (such as 'unique') that is extreme.
+test-vale/test-avoid-terms.md:42:21:oneAkamai.Classification:Don't use language (such as 'never') that is extreme.
+test-vale/test-avoid-terms.md:43:1:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-avoid-terms.md:43:4:oneAkamai.Classification:Don't use language (such as 'recommend') that is extreme.
+test-vale/test-avoid-terms.md:45:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:47:1:oneAkamai.Accessibility:Don't use language (such as 'Disabled') that defines people by their disability.
+test-vale/test-avoid-terms.md:47:10:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:47:20:oneAkamai.ComplexWords:Consider using 'meet' instead of 'encounter'.
+test-vale/test-avoid-terms.md:48:13:oneAkamai.Passive:'was designed' looks like passive voice.
+test-vale/test-avoid-terms.md:48:30:oneAkamai.Accessibility:Don't use language (such as 'able-bodied') that defines people by their disability.
+test-vale/test-avoid-terms.md:48:42:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:49:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-avoid-terms.md:49:33:oneAkamai.GenderBias:Consider using 'pilot(s)' instead of 'airmen'.
+test-vale/test-avoid-terms.md:49:48:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:49:56:oneAkamai.Vocab:Verify your use of 'accessible' with the A-Z word list.
+test-vale/test-avoid-terms.md:51:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:53:1:oneAkamai.FirstPerson:Use first person (such as 'I ') sparingly.
+test-vale/test-avoid-terms.md:53:3:oneAkamai.Classification:Don't use language (such as 'recommend') that is extreme.
+test-vale/test-avoid-terms.md:53:13:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:54:1:oneAkamai.FirstPerson:Use first person (such as 'My') sparingly.
+test-vale/test-avoid-terms.md:55:9:oneAkamai.FirstPerson:Use first person (such as 'my') sparingly.
+test-vale/test-avoid-terms.md:57:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:59:9:oneAkamai.Vocab:Verify your use of 'he' with the A-Z word list.
+test-vale/test-avoid-terms.md:59:9:oneAkamai.Gender:Don't use 'he/she'.
+test-vale/test-avoid-terms.md:59:12:oneAkamai.Vocab:Verify your use of 'she' with the A-Z word list.
+test-vale/test-avoid-terms.md:59:28:oneAkamai.ComplexWords:Consider using 'help' instead of 'assistance'.
+test-vale/test-avoid-terms.md:60:11:oneAkamai.Gender:Don't use 's/he'.
+test-vale/test-avoid-terms.md:60:13:oneAkamai.Vocab:Verify your use of 'he' with the A-Z word list.
+test-vale/test-avoid-terms.md:62:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:64:5:oneAkamai.GenderBias:Consider using 'firefighter(s)' instead of 'fireman'.
+test-vale/test-avoid-terms.md:65:12:oneAkamai.GenderBias:Consider using 'chair(s)' instead of 'chairman'.
+test-vale/test-avoid-terms.md:66:5:oneAkamai.GenderBias:Consider using 'personnel' instead of 'manpower'.
+test-vale/test-avoid-terms.md:66:10:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-avoid-terms.md:66:33:oneAkamai.Avoid:Don't use 'ask'.
+test-vale/test-avoid-terms.md:66:40:oneAkamai.Classification:Don't use language (such as 'significant') that is extreme.
+test-vale/test-avoid-terms.md:67:13:oneAkamai.GenderBias:Consider using 'salesperson or sales people' instead of 'salesman'.
+test-vale/test-avoid-terms.md:69:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-avoid-terms.md:69:25:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-avoid-terms.md:71:1:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-avoid-terms.md:71:4:oneAkamai.Classification:Don't use language (such as 'recommend') that is extreme.
+test-vale/test-avoid-terms.md:71:44:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-avoid-terms.md:72:1:oneAkamai.Contractions:Use 'we've' instead of 'We have'.
+test-vale/test-avoid-terms.md:72:1:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-avoid-terms.md:73:1:oneAkamai.We:Try to avoid using first-person plural like 'Let's'.
+test-vale/test-avoid-terms.md:74:1:oneAkamai.We:Try to avoid using first-person plural like 'Our'.
+test-vale/test-punctuation-spacing.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-punctuation-spacing.md:7:10:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:9:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:9:33:oneAkamai.Terms:Prefer 'every day' over '24/7'.
+test-vale/test-punctuation-spacing.md:9:36:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-punctuation-spacing.md:9:37:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:9:67:oneAkamai.Avoid:Don't use 'ask'.
+test-vale/test-punctuation-spacing.md:10:13:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:10:34:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:11:12:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:11:31:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:11:54:oneAkamai.Adverbs:Consider removing 'very'.
+test-vale/test-punctuation-spacing.md:13:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-punctuation-spacing.md:15:31:oneAkamai.Ellipses:In general, don't use an ellipsis.
+test-vale/test-punctuation-spacing.md:16:19:oneAkamai.Passive:'is applied' looks like passive voice.
+test-vale/test-punctuation-spacing.md:16:29:oneAkamai.Ellipses:In general, don't use an ellipsis.
+test-vale/test-punctuation-spacing.md:17:8:oneAkamai.Ellipses:In general, don't use an ellipsis.
+test-vale/test-punctuation-spacing.md:19:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:21:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-punctuation-spacing.md:21:6:oneAkamai.Hyphens:' highly-' doesn't need a hyphen.
+test-vale/test-punctuation-spacing.md:22:10:oneAkamai.Hyphens:' fully-' doesn't need a hyphen.
+test-vale/test-punctuation-spacing.md:23:9:oneAkamai.Hyphens:' globally-' doesn't need a hyphen.
+test-vale/test-punctuation-spacing.md:25:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-punctuation-spacing.md:27:8:oneAkamai.Auto:In general, don't hyphenate 'auto-scaling'.
+test-vale/test-punctuation-spacing.md:28:21:oneAkamai.Auto:In general, don't hyphenate 'auto-provisioning'.
+test-vale/test-punctuation-spacing.md:29:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-punctuation-spacing.md:29:5:oneAkamai.Auto:In general, don't hyphenate 'auto-detection'.
+test-vale/test-punctuation-spacing.md:30:11:oneAkamai.Auto:In general, don't hyphenate 'auto-failover'.
+test-vale/test-punctuation-spacing.md:30:28:oneAkamai.Classification:Don't use language (such as 'improve') that is extreme.
+test-vale/test-punctuation-spacing.md:32:10:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:34:18:oneAkamai.Quotes:Punctuation should be inside the quotes.
+test-vale/test-punctuation-spacing.md:35:14:oneAkamai.ComplexWords:Consider using 'has' instead of 'contains'.
+test-vale/test-punctuation-spacing.md:35:33:oneAkamai.Quotes:Punctuation should be inside the quotes.
+test-vale/test-punctuation-spacing.md:35:38:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-punctuation-spacing.md:36:12:oneAkamai.Quotes:Punctuation should be inside the quotes.
+test-vale/test-punctuation-spacing.md:38:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-punctuation-spacing.md:38:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:40:29:oneAkamai.Spacing:'g. A' should have one space.
+test-vale/test-punctuation-spacing.md:41:37:oneAkamai.Spacing:'s. C' should have one space.
+test-vale/test-punctuation-spacing.md:41:54:oneAkamai.Adverbs:Consider removing 'carefully'.
+test-vale/test-punctuation-spacing.md:42:12:oneAkamai.Acronyms:'DNS' has no definition.
+test-vale/test-punctuation-spacing.md:42:21:oneAkamai.Spacing:'d. W' should have one space.
+test-vale/test-punctuation-spacing.md:42:49:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-punctuation-spacing.md:44:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-punctuation-spacing.md:46:1:oneAkamai.UIActions:Use 'select the (for checkboxes)' instead of 'Check the' for UI interactions. See the User actions guide.
+test-vale/test-punctuation-spacing.md:46:16:oneAkamai.Spacing:'l.T' should have one space.
+test-vale/test-punctuation-spacing.md:47:22:oneAkamai.Spacing:'n.V' should have one space.
+test-vale/test-oas.yaml:1:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=233) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-oas.yaml:1:10:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-oas.yaml:5:14:oneAkamai.TermSubstitutions:Use 'use' instead of 'utilize'. See the Akamai A–Z word guide.
+test-vale/test-oas.yaml:5:14:oneAkamai.ComplexWords:Consider using 'use' instead of 'utilize'.
+test-vale/test-oas.yaml:5:26:oneAkamai.Avoid:Don't use 'backend'.
+test-vale/test-oas.yaml:5:37:oneAkamai.ComplexWords:Consider using 'give' or 'offer' instead of 'provide'.
+test-vale/test-oas.yaml:5:62:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-oas.yaml:6:5:oneAkamai.Contractions:Use 'it's' instead of 'It is'.
+test-vale/test-oas.yaml:6:8:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+test-vale/test-oas.yaml:6:8:oneAkamai.Passive:'is comprised' looks like passive voice.
+test-vale/test-oas.yaml:6:11:oneAkamai.ComplexWords:Consider using 'form' or 'include' instead of 'comprise'.
+test-vale/test-oas.yaml:6:55:oneAkamai.UIActions:Use 'click' instead of 'click on' for UI interactions. See the User actions guide.
+test-vale/test-oas.yaml:7:5:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-oas.yaml:7:8:oneAkamai.Classification:Don't use language (such as 'recommend') that is extreme.
+test-vale/test-oas.yaml:7:39:oneAkamai.Classification:Don't use language (such as 'best') that is extreme.
+test-vale/test-oas.yaml:8:30:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+test-vale/test-oas.yaml:8:30:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+test-vale/test-oas.yaml:8:39:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-oas.yaml:8:44:oneAkamai.TermSubstitutions:Use 'blocklist' instead of 'blacklist'. See the Akamai A–Z word guide.
+test-vale/test-oas.yaml:15:42:oneAkamai.Contractions:Use 'shouldn't' instead of 'should not'.
+test-vale/test-oas.yaml:15:53:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-oas.yaml:16:34:oneAkamai.Contractions:Use 'doesn't' instead of 'does not'.
+test-vale/test-oas.yaml:16:60:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+test-vale/test-oas.yaml:17:23:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+test-vale/test-oas.yaml:18:12:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+test-vale/test-oas.yaml:18:17:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+test-vale/test-oas.yaml:18:17:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+test-vale/test-oas.yaml:18:39:oneAkamai.Foreign:Use 'for example' instead of 'e.g.'.
+test-vale/test-oas.yaml:22:57:oneAkamai.References:Use 'Learn more' instead of 'Click here'.
+test-vale/test-oas.yaml:23:39:oneAkamai.Passive:'is returned' looks like passive voice.
+test-vale/test-oas.yaml:23:56:oneAkamai.Spelling:Use the preferred spelling 'backward' instead of 'backwards'.
+test-vale/test-oas.yaml:28:68:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+test-vale/test-oas.yaml:28:68:oneAkamai.Passive:'is comprised' looks like passive voice.
+test-vale/test-oas.yaml:28:71:oneAkamai.ComplexWords:Consider using 'form' or 'include' instead of 'comprise'.
+test-vale/test-oas.yaml:29:43:oneAkamai.AvoidTerms:Flagged term: 'See the table below'. See the Akamai style guide for the preferred alternative.
+test-vale/test-oas.yaml:35:53:oneAkamai.Passive:'is returned' looks like passive voice.
+test-vale/test-oas.yaml:36:9:oneAkamai.Accessibility:Don't use language (such as 'Disabled') that defines people by their disability.
+test-vale/test-oas.yaml:36:18:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-oas.yaml:36:24:oneAkamai.Contractions:Use 'can't' instead of 'cannot'.
+test-vale/test-oas.yaml:37:17:oneAkamai.Vocab:Verify your use of 'he' with the A-Z word list.
+test-vale/test-oas.yaml:37:17:oneAkamai.Gender:Don't use 'he/she'.
+test-vale/test-oas.yaml:37:20:oneAkamai.Vocab:Verify your use of 'she' with the A-Z word list.
+test-vale/test-oas.yaml:37:43:oneAkamai.Classification:Don't use language (such as 'Always') that is extreme.
+test-vale/test-oas.yaml:37:50:oneAkamai.Vocab:Verify your use of 'ensure' with the A-Z word list.
+test-vale/test-oas.yaml:42:17:oneAkamai.Classification:Don't use language (such as 'unique') that is extreme.
+test-vale/test-oas.yaml:42:55:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-oas.yaml:42:70:oneAkamai.Acronyms:'UUID' has no definition.
+test-vale/test-oas.yaml:43:13:oneAkamai.URLFormat:Use 'a URL' instead of 'An URL'.
+test-vale/test-oas.yaml:43:16:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-oas.yaml:43:33:oneAkamai.Passive:'is returned' looks like passive voice.
+test-vale/test-terms-substitutions.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-terms-substitutions.md:3:88:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:3:106:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:7:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-terms-substitutions.md:7:35:oneAkamai.ComplexWords:Consider using 'choices' or 'options' instead of 'alternatives'.
+test-vale/test-terms-substitutions.md:9:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+test-vale/test-terms-substitutions.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=55) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-terms-substitutions.md:9:1:oneAkamai.TermSubstitutions:Use 'use' instead of 'Utilize'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:10:19:oneAkamai.ComplexWords:Consider using 'ease' instead of 'facilitate'.
+test-vale/test-terms-substitutions.md:11:17:oneAkamai.ComplexWords:Consider using 'end' instead of 'terminate'.
+test-vale/test-terms-substitutions.md:12:8:oneAkamai.ComplexWords:Consider using 'try' instead of 'endeavor'.
+test-vale/test-terms-substitutions.md:12:20:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-terms-substitutions.md:12:38:oneAkamai.ComplexWords:Consider using 'right' or 'exact' instead of 'accurate'.
+test-vale/test-terms-substitutions.md:13:14:oneAkamai.ComplexWords:Consider using 'send' instead of 'transmit'.
+test-vale/test-terms-substitutions.md:14:1:oneAkamai.We:Try to avoid using first-person plural like 'We'.
+test-vale/test-terms-substitutions.md:14:12:oneAkamai.ComplexWords:Consider using 'discover' or 'find out' instead of 'ascertain'.
+test-vale/test-terms-substitutions.md:14:33:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-terms-substitutions.md:15:11:oneAkamai.ComplexWords:Consider using 'cause' instead of 'necessitate'.
+test-vale/test-terms-substitutions.md:17:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-terms-substitutions.md:19:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=43) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-terms-substitutions.md:19:22:oneAkamai.Spelling:Use the preferred spelling 'backward' instead of 'backwards'.
+test-vale/test-terms-substitutions.md:19:47:oneAkamai.ComplexWords:Consider using 'earlier' instead of 'previous'.
+test-vale/test-terms-substitutions.md:19:53:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-terms-substitutions.md:20:20:oneAkamai.Spelling:Use the preferred spelling 'afterward' instead of 'afterwards'.
+test-vale/test-terms-substitutions.md:20:20:oneAkamai.Terms:Prefer 'afterward' over 'afterwards'.
+test-vale/test-terms-substitutions.md:20:34:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+test-vale/test-terms-substitutions.md:21:5:oneAkamai.Spelling:Use the preferred spelling 'cannot' instead of 'can not'.
+test-vale/test-terms-substitutions.md:22:13:oneAkamai.Spelling:Use the preferred spelling 'appendixes' instead of 'appendices'.
+test-vale/test-terms-substitutions.md:23:14:oneAkamai.Spelling:Use the preferred spelling 'browsable' instead of 'browseable'.
+test-vale/test-terms-substitutions.md:25:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-terms-substitutions.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=61) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-terms-substitutions.md:27:23:oneAkamai.TermSubstitutions:Use 'blocklist' instead of 'blacklist'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:28:25:oneAkamai.TermSubstitutions:Use 'allowlist' instead of 'whitelist'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:29:5:oneAkamai.TermSubstitutions:Use 'app' instead of 'program'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:29:13:oneAkamai.TermSubstitutions:Use 'quits unexpectedly' instead of 'crashes'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:30:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-terms-substitutions.md:30:5:oneAkamai.TermSubstitutions:Use 'exit, interrupt, quit, or stop' instead of 'abort'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:31:3:oneAkamai.TermSubstitutions:Use 'problem or limitation' instead of 'bug'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:31:7:oneAkamai.Passive:'was found' looks like passive voice.
+test-vale/test-terms-substitutions.md:32:5:oneAkamai.TermSubstitutions:Use 'app' instead of 'program'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:33:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+test-vale/test-terms-substitutions.md:33:1:oneAkamai.TermSubstitutions:Use 'use' instead of 'Utilize'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:33:27:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-terms-substitutions.md:34:38:oneAkamai.AvoidTerms:Flagged term: 'centigrade'. See the Akamai style guide for the preferred alternative.
+test-vale/test-terms-substitutions.md:34:38:oneAkamai.TermSubstitutions:Use 'Celsius' instead of 'centigrade'. See the Akamai A–Z word guide.
+test-vale/test-terms-substitutions.md:36:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-terms-substitutions.md:38:27:oneAkamai.Terms:Prefer 'every day' over '24/7'.
+test-vale/test-terms-substitutions.md:38:30:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+test-vale/test-terms-substitutions.md:39:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+test-vale/test-terms-substitutions.md:39:8:oneAkamai.Terms:Prefer 'audiobook' over 'audio-book'.
+test-vale/test-terms-substitutions.md:40:5:oneAkamai.Terms:Prefer 'adapter' over 'adaptor'.
+test-vale/test-terms-substitutions.md:42:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:42:16:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=70) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-terms-substitutions.md:44:1:oneAkamai.UIActions:Use 'click' instead of 'Click on' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:44:30:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-terms-substitutions.md:45:1:oneAkamai.UIActions:Use 'double-click' instead of 'Double-click on' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:46:1:oneAkamai.UIActions:Use 'right-click' instead of 'Right-click on' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:47:1:oneAkamai.UIActions:Use 'select (when picking among UI options like checkboxes, radio buttons, or dropdowns)' instead of 'Choose' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:48:1:oneAkamai.UIActions:Use 'enter (when directing users to input text in a field)' instead of 'Type' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:48:7:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-terms-substitutions.md:48:11:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-terms-substitutions.md:49:1:oneAkamai.UIActions:Use 'select the (for checkboxes)' instead of 'Check the' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:50:1:oneAkamai.UIActions:Use 'deselect the (for checkboxes)' instead of 'Uncheck the' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:51:1:oneAkamai.UIActions:Use 'press' instead of 'Hit the Enter' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:52:1:oneAkamai.UIActions:Use 'deselect' instead of 'Unclick' for UI interactions. See the User actions guide.
+test-vale/test-terms-substitutions.md:52:17:oneAkamai.Terms:Prefer 'KB' over 'kb'.
+test-vale/test-terms-substitutions.md:54:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+test-vale/test-terms-substitutions.md:54:13:oneAkamai.Dashes:Remove the spaces around ' — '.
+test-vale/test-terms-substitutions.md:56:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=92) words). Aim for ~15 words per sentence; split if needed.
+test-vale/test-terms-substitutions.md:56:1:oneAkamai.Wordiness:Consider using 'to' instead of 'In order to'.
+test-vale/test-terms-substitutions.md:57:1:oneAkamai.Wordiness:Consider using 'because' instead of 'Due to the fact that'.
+test-vale/test-terms-substitutions.md:57:50:oneAkamai.Passive:'are forwarded' looks like passive voice.
+test-vale/test-terms-substitutions.md:58:1:oneAkamai.Wordiness:Consider using 'at this point' instead of 'At this point in time'.
+test-vale/test-terms-substitutions.md:58:36:oneAkamai.Contractions:Use 'isn't' instead of 'is not'.
+test-vale/test-terms-substitutions.md:59:1:oneAkamai.Wordiness:Consider using 'if' instead of 'In the event that'.
+test-vale/test-terms-substitutions.md:60:1:oneAkamai.Wordiness:Consider using 'although' instead of 'In spite of the fact that'.
+test-vale/test-terms-substitutions.md:60:39:oneAkamai.Passive:'is enabled' looks like passive voice.
+test-vale/test-terms-substitutions.md:60:59:oneAkamai.Contractions:Use 'isn't' instead of 'is not'.
+test-vale/test-terms-substitutions.md:61:12:oneAkamai.Wordiness:Consider using 'can' instead of 'has the ability to'.
+test-vale/test-terms-substitutions.md:61:38:oneAkamai.ComplexWords:Consider using 'many' instead of 'multiple'.
+test-vale/test-terms-substitutions.md:62:1:oneAkamai.Wordiness:Consider using 'whether' instead of 'Whether or not'.
+test-vale/test-terms-substitutions.md:62:52:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+test-vale/test-terms-substitutions.md:62:56:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-terms-substitutions.md:63:1:oneAkamai.Wordiness:Consider using 'regarding' instead of 'With regard to'.
+test-vale/test-terms-substitutions.md:65:4:oneAkamai.URLFormat:Use 'URL of' instead of 'URL for'.
+test-vale/test-terms-substitutions.md:65:4:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:65:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:65:16:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:65:16:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:67:7:oneAkamai.URLFormat:Use 'a URL' instead of 'an URL'.
+test-vale/test-terms-substitutions.md:67:10:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:68:1:oneAkamai.ComplexWords:Consider using 'give' or 'offer' instead of 'Provide'.
+test-vale/test-terms-substitutions.md:68:13:oneAkamai.URLFormat:Use 'URL of' instead of 'URL for'.
+test-vale/test-terms-substitutions.md:68:13:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:70:12:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:70:12:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:70:16:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+test-vale/test-terms-substitutions.md:70:30:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:70:30:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+test-vale/test-terms-substitutions.md:72:11:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:73:10:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+test-vale/test-terms-substitutions.md:73:31:oneAkamai.ComplexWords:Consider using 'discuss' instead of 'address'.
