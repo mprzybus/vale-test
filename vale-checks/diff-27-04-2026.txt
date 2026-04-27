@@ -1,0 +1,170 @@
+26,62d25
+< test-vale/test-headings.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:7:26:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:9:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:11:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:11:23:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+< test-vale/test-headings.md:13:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:15:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+< test-vale/test-headings.md:17:22:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:17:27:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+< test-vale/test-headings.md:19:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:19:18:oneAkamai.HeadingColons:Capitalize ': t'.
+< test-vale/test-headings.md:21:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:21:19:oneAkamai.HeadingColons:Capitalize ': h'.
+< test-vale/test-headings.md:23:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:23:18:oneAkamai.HeadingColons:Capitalize ': w'.
+< test-vale/test-headings.md:25:23:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:27:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:27:19:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:29:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:29:30:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:31:31:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:31:32:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+< test-vale/test-headings.md:33:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:35:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:35:14:oneAkamai.Acronyms:'TLS' has no definition.
+< test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:35:22:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+< test-vale/test-headings.md:37:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:37:19:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:37:19:oneAkamai.Acronyms:'DNS' has no definition.
+< test-vale/test-headings.md:39:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:39:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:41:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+< test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:41:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+87d49
+< test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.Passive:'were uploaded' looks like passive voice.
+88a51
+> test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.Passive:'were uploaded' looks like passive voice.
+102d64
+< test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.Acronyms:'AMPM' has no definition.
+103a66
+> test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.Acronyms:'AMPM' has no definition.
+121d83
+< test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+122a85
+> test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+126d88
+< test-vale/test-abbreviations-acronyms.md:50:5:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+127a90
+> test-vale/test-abbreviations-acronyms.md:50:5:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+187d149
+< test-vale/test-dates-numbers.md:53:11:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+188a151
+> test-vale/test-dates-numbers.md:53:11:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+207a171,207
+> test-vale/test-headings.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:7:26:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:9:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:11:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:11:23:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+> test-vale/test-headings.md:13:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:15:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+> test-vale/test-headings.md:17:22:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:17:27:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+> test-vale/test-headings.md:19:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:19:18:oneAkamai.HeadingColons:Capitalize ': t'.
+> test-vale/test-headings.md:21:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:21:19:oneAkamai.HeadingColons:Capitalize ': h'.
+> test-vale/test-headings.md:23:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:23:18:oneAkamai.HeadingColons:Capitalize ': w'.
+> test-vale/test-headings.md:25:23:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:27:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:27:19:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:29:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:29:30:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:31:31:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:31:32:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+> test-vale/test-headings.md:33:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:35:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:35:14:oneAkamai.Acronyms:'TLS' has no definition.
+> test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:35:22:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+> test-vale/test-headings.md:37:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:37:19:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:37:19:oneAkamai.Acronyms:'DNS' has no definition.
+> test-vale/test-headings.md:39:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:39:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:41:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+> test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:41:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+240d239
+< test-vale/test-grammar.md:37:1:oneAkamai.OxfordComma:Use the Oxford comma in 'Configure the origin, update the DNS settings and test the connection. The report includes errors, warnings and suggestions. You can use certificates, API keys and tokens. The system supports HTTP, HTTPS and'.
+241a241
+> test-vale/test-grammar.md:37:1:oneAkamai.OxfordComma:Use the Oxford comma in 'Configure the origin, update the DNS settings and test the connection. The report includes errors, warnings and suggestions. You can use certificates, API keys and tokens. The system supports HTTP, HTTPS and'.
+311,312d310
+< test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-lists-structure.md:19:25:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+314c312,313
+< test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+---
+> test-vale/test-lists-structure.md:19:25:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+315a315
+> test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+319d318
+< test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+321c320
+< test-vale/test-lists-structure.md:27:1:oneAkamai.OxfordComma:Use the Oxford comma in 'To complete the setup, configure the origin, update the DNS record and activate the rule. The platform supports caching, load balancing and traffic routing. Assign roles to developers, administrators and'.
+---
+> test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+322a322
+> test-vale/test-lists-structure.md:27:1:oneAkamai.OxfordComma:Use the Oxford comma in 'To complete the setup, configure the origin, update the DNS record and activate the rule. The platform supports caching, load balancing and traffic routing. Assign roles to developers, administrators and'.
+341d340
+< test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+342a342
+> test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+362d361
+< test-vale/test-avoid-terms.md:21:17:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+363a363
+> test-vale/test-avoid-terms.md:21:17:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+369d368
+< test-vale/test-avoid-terms.md:24:12:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+370a370
+> test-vale/test-avoid-terms.md:24:12:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+439d438
+< test-vale/test-avoid-terms.md:72:1:oneAkamai.Contractions:Use 'we've' instead of 'We have'.
+440a440
+> test-vale/test-avoid-terms.md:72:1:oneAkamai.Contractions:Use 'we've' instead of 'We have'.
+492d491
+< test-vale/test-oas.yaml:5:14:oneAkamai.TermSubstitutions:Use 'use' instead of 'utilize'. See the Akamai A–Z word guide.
+493a493
+> test-vale/test-oas.yaml:5:14:oneAkamai.TermSubstitutions:Use 'use' instead of 'utilize'. See the Akamai A–Z word guide.
+498d497
+< test-vale/test-oas.yaml:6:8:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+499a499
+> test-vale/test-oas.yaml:6:8:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+515d514
+< test-vale/test-oas.yaml:18:17:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+516a516
+> test-vale/test-oas.yaml:18:17:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+521d520
+< test-vale/test-oas.yaml:28:68:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+522a522
+> test-vale/test-oas.yaml:28:68:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+529d528
+< test-vale/test-oas.yaml:37:17:oneAkamai.Vocab:Verify your use of 'he' with the A-Z word list.
+530a530
+> test-vale/test-oas.yaml:37:17:oneAkamai.Vocab:Verify your use of 'he' with the A-Z word list.
+545d544
+< test-vale/test-terms-substitutions.md:9:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+547a547
+> test-vale/test-terms-substitutions.md:9:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+563d562
+< test-vale/test-terms-substitutions.md:20:20:oneAkamai.Spelling:Use the preferred spelling 'afterward' instead of 'afterwards'.
+564a564
+> test-vale/test-terms-substitutions.md:20:20:oneAkamai.Spelling:Use the preferred spelling 'afterward' instead of 'afterwards'.
+593d592
+< test-vale/test-terms-substitutions.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=70) words). Aim for ~15 words per sentence; split if needed.
+594a594
+> test-vale/test-terms-substitutions.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=70) words). Aim for ~15 words per sentence; split if needed.
+633d632
+< test-vale/test-terms-substitutions.md:68:13:oneAkamai.URLFormat:Use 'URL of' instead of 'URL for'.
+634a634
+> test-vale/test-terms-substitutions.md:68:13:oneAkamai.URLFormat:Use 'URL of' instead of 'URL for'.
