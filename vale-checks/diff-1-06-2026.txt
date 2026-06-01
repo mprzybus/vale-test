@@ -1,0 +1,340 @@
+1d0
+< test-vale/POC.md:1:3:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+2a2
+> test-vale/POC.md:1:3:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+18d17
+< test-vale/POC.md:6:1:oneAkamai.FirstPerson:Use first person (such as 'I ') sparingly.
+19a19
+> test-vale/POC.md:6:1:oneAkamai.FirstPerson:Use first person (such as 'I ') sparingly.
+26,62d25
+< test-vale/test-headings.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:7:26:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:9:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:11:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:11:23:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+< test-vale/test-headings.md:13:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:15:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+< test-vale/test-headings.md:17:22:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:17:27:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+< test-vale/test-headings.md:19:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:19:18:oneAkamai.HeadingColons:Capitalize ': t'.
+< test-vale/test-headings.md:21:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:21:19:oneAkamai.HeadingColons:Capitalize ': h'.
+< test-vale/test-headings.md:23:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:23:18:oneAkamai.HeadingColons:Capitalize ': w'.
+< test-vale/test-headings.md:25:23:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-headings.md:27:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:27:19:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:29:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:29:30:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:31:31:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-headings.md:31:32:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+< test-vale/test-headings.md:33:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:35:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:35:14:oneAkamai.Acronyms:'TLS' has no definition.
+< test-vale/test-headings.md:35:22:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+< test-vale/test-headings.md:37:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:37:19:oneAkamai.Acronyms:'DNS' has no definition.
+< test-vale/test-headings.md:37:19:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:39:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:39:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-headings.md:41:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+< test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-headings.md:41:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+79d41
+< test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+80a43
+> test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+85d47
+< test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Acronyms:'JPEG' has no definition.
+87c49
+< test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.Passive:'were uploaded' looks like passive voice.
+---
+> test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Acronyms:'JPEG' has no definition.
+88a51
+> test-vale/test-abbreviations-acronyms.md:20:12:oneAkamai.Passive:'were uploaded' looks like passive voice.
+102d64
+< test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+103a66
+> test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+121d83
+< test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+122a85
+> test-vale/test-abbreviations-acronyms.md:46:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+128,207c91,127
+< test-vale/test-dates-numbers.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-dates-numbers.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:3:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:3:54:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:7:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:9:13:oneAkamai.Passive:'was released' looks like passive voice.
+< test-vale/test-dates-numbers.md:9:29:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '31 July 2023'.
+< test-vale/test-dates-numbers.md:10:28:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:10:28:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '1 March 2025'.
+< test-vale/test-dates-numbers.md:11:33:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '15 September 2024'.
+< test-vale/test-dates-numbers.md:11:41:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:13:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:15:11:oneAkamai.Passive:'is scheduled' looks like passive voice.
+< test-vale/test-dates-numbers.md:15:28:oneAkamai.DateOrder:Always spell out the name of the month.
+< test-vale/test-dates-numbers.md:16:19:oneAkamai.DateOrder:Always spell out the name of the month.
+< test-vale/test-dates-numbers.md:17:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+< test-vale/test-dates-numbers.md:17:16:oneAkamai.DateOrder:Always spell out the name of the month.
+< test-vale/test-dates-numbers.md:19:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-dates-numbers.md:19:8:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:19:21:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:19:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:21:17:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+< test-vale/test-dates-numbers.md:22:22:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+< test-vale/test-dates-numbers.md:23:24:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+< test-vale/test-dates-numbers.md:23:28:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:25:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-dates-numbers.md:25:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:25:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:25:25:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+< test-vale/test-dates-numbers.md:25:39:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+< test-vale/test-dates-numbers.md:27:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:28:13:oneAkamai.Passive:'is set' looks like passive voice.
+< test-vale/test-dates-numbers.md:29:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+< test-vale/test-dates-numbers.md:29:5:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:30:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:32:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-dates-numbers.md:32:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:34:17:oneAkamai.Classification:Don't use language (such as 'improve') that is extreme.
+< test-vale/test-dates-numbers.md:34:29:oneAkamai.Percentages:Use a numeral plus the units.
+< test-vale/test-dates-numbers.md:35:27:oneAkamai.Percentages:Use a numeral plus the units.
+< test-vale/test-dates-numbers.md:36:26:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+< test-vale/test-dates-numbers.md:36:32:oneAkamai.Percentages:Use a numeral plus the units.
+< test-vale/test-dates-numbers.md:38:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-dates-numbers.md:38:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:40:18:oneAkamai.Contractions:Use 'it's' instead of 'it is'.
+< test-vale/test-dates-numbers.md:41:22:oneAkamai.Units:Don't spell out the number in 'three meters'.
+< test-vale/test-dates-numbers.md:42:12:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+< test-vale/test-dates-numbers.md:42:19:oneAkamai.Units:Don't spell out the number in 'two kilograms'.
+< test-vale/test-dates-numbers.md:43:15:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-dates-numbers.md:43:30:oneAkamai.Units:Don't spell out the number in 'ten meters'.
+< test-vale/test-dates-numbers.md:45:14:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:45:19:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:47:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+< test-vale/test-dates-numbers.md:48:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+< test-vale/test-dates-numbers.md:48:22:oneAkamai.Acronyms:'DNS' has no definition.
+< test-vale/test-dates-numbers.md:49:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+< test-vale/test-dates-numbers.md:51:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:51:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:53:11:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-dates-numbers.md:53:11:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-dates-numbers.md:54:20:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:54:20:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-dates-numbers.md:54:20:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-dates-numbers.md:55:7:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-dates-numbers.md:55:7:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-dates-numbers.md:55:17:oneAkamai.Passive:'are reserved' looks like passive voice.
+< test-vale/test-dates-numbers.md:57:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:59:9:oneAkamai.We:Try to avoid using first-person plural like 'ours'.
+< test-vale/test-dates-numbers.md:59:20:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-5 PM'.
+< test-vale/test-dates-numbers.md:59:23:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:60:37:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-4 AM'.
+< test-vale/test-dates-numbers.md:62:15:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-dates-numbers.md:62:20:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-dates-numbers.md:64:19:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+< test-vale/test-dates-numbers.md:64:44:oneAkamai.Vocab:Verify your use of 'alert' with the A-Z word list.
+< test-vale/test-dates-numbers.md:65:20:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+< test-vale/test-dates-numbers.md:65:22:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-dates-numbers.md:65:34:oneAkamai.ComplexWords:Consider using 'change' instead of 'adjustment'.
+< test-vale/test-dates-numbers.md:65:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+---
+> test-vale/test-headings.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:7:26:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:9:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:11:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:11:23:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+> test-vale/test-headings.md:13:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:15:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+> test-vale/test-headings.md:17:22:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:17:27:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+> test-vale/test-headings.md:19:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:19:18:oneAkamai.HeadingColons:Capitalize ': t'.
+> test-vale/test-headings.md:21:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:21:19:oneAkamai.HeadingColons:Capitalize ': h'.
+> test-vale/test-headings.md:23:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:23:18:oneAkamai.HeadingColons:Capitalize ': w'.
+> test-vale/test-headings.md:25:23:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-headings.md:27:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:27:19:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:29:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:29:30:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:31:31:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-headings.md:31:32:oneAkamai.AvoidExclamation:Avoid exclamation points in documentation. Use structured notes (Caution, Warning) for safety or security issues.
+> test-vale/test-headings.md:33:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:35:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:35:14:oneAkamai.Acronyms:'TLS' has no definition.
+> test-vale/test-headings.md:35:22:oneAkamai.We:Try to avoid using first-person plural like 'our'.
+> test-vale/test-headings.md:37:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:37:19:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:37:19:oneAkamai.Acronyms:'DNS' has no definition.
+> test-vale/test-headings.md:39:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:39:17:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+> test-vale/test-headings.md:41:5:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+> test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-headings.md:41:11:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+216d135
+< test-vale/test-lists-structure.md:11:4:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+218c137
+< test-vale/test-lists-structure.md:13:26:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+---
+> test-vale/test-lists-structure.md:11:4:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+219a139
+> test-vale/test-lists-structure.md:13:26:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+224d143
+< test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+225a145
+> test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+227d146
+< test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+228a148
+> test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+232d151
+< test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+233a153
+> test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+248d167
+< test-vale/test-lists-structure.md:44:8:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+250a170
+> test-vale/test-lists-structure.md:44:8:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+254d173
+< test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+255a175
+> test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+273d192
+< test-vale/test-avoid-terms.md:21:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+274a194
+> test-vale/test-avoid-terms.md:21:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+355a276,355
+> test-vale/test-dates-numbers.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-dates-numbers.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:3:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:3:54:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:7:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:9:13:oneAkamai.Passive:'was released' looks like passive voice.
+> test-vale/test-dates-numbers.md:9:29:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '31 July 2023'.
+> test-vale/test-dates-numbers.md:10:28:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:10:28:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '1 March 2025'.
+> test-vale/test-dates-numbers.md:11:33:oneAkamai.DateFormat:Use 'July 31, 2016' format, not '15 September 2024'.
+> test-vale/test-dates-numbers.md:11:41:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:13:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:15:11:oneAkamai.Passive:'is scheduled' looks like passive voice.
+> test-vale/test-dates-numbers.md:15:28:oneAkamai.DateOrder:Always spell out the name of the month.
+> test-vale/test-dates-numbers.md:16:19:oneAkamai.DateOrder:Always spell out the name of the month.
+> test-vale/test-dates-numbers.md:17:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+> test-vale/test-dates-numbers.md:17:16:oneAkamai.DateOrder:Always spell out the name of the month.
+> test-vale/test-dates-numbers.md:19:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-dates-numbers.md:19:8:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:19:21:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:19:34:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:21:17:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+> test-vale/test-dates-numbers.md:22:22:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+> test-vale/test-dates-numbers.md:23:24:oneAkamai.DateNumbers:Don't use ordinal numbers for dates.
+> test-vale/test-dates-numbers.md:23:28:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:25:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-dates-numbers.md:25:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:25:11:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:25:25:oneAkamai.HeadingPunctuation:Don't use end punctuation in headings.
+> test-vale/test-dates-numbers.md:25:39:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+> test-vale/test-dates-numbers.md:27:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:28:13:oneAkamai.Passive:'is set' looks like passive voice.
+> test-vale/test-dates-numbers.md:29:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+> test-vale/test-dates-numbers.md:29:5:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:30:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:32:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-dates-numbers.md:32:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:34:17:oneAkamai.Classification:Don't use language (such as 'improve') that is extreme.
+> test-vale/test-dates-numbers.md:34:29:oneAkamai.Percentages:Use a numeral plus the units.
+> test-vale/test-dates-numbers.md:35:27:oneAkamai.Percentages:Use a numeral plus the units.
+> test-vale/test-dates-numbers.md:36:26:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+> test-vale/test-dates-numbers.md:36:32:oneAkamai.Percentages:Use a numeral plus the units.
+> test-vale/test-dates-numbers.md:38:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-dates-numbers.md:38:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:40:18:oneAkamai.Contractions:Use 'it's' instead of 'it is'.
+> test-vale/test-dates-numbers.md:41:22:oneAkamai.Units:Don't spell out the number in 'three meters'.
+> test-vale/test-dates-numbers.md:42:12:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+> test-vale/test-dates-numbers.md:42:19:oneAkamai.Units:Don't spell out the number in 'two kilograms'.
+> test-vale/test-dates-numbers.md:43:15:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-dates-numbers.md:43:30:oneAkamai.Units:Don't spell out the number in 'ten meters'.
+> test-vale/test-dates-numbers.md:45:14:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:45:19:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:47:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+> test-vale/test-dates-numbers.md:48:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+> test-vale/test-dates-numbers.md:48:22:oneAkamai.Acronyms:'DNS' has no definition.
+> test-vale/test-dates-numbers.md:49:1:oneAkamai.Ordinal:Don't add -ly to an ordinal number.
+> test-vale/test-dates-numbers.md:51:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:51:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:53:11:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-dates-numbers.md:53:11:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-dates-numbers.md:54:20:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:54:20:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-dates-numbers.md:54:20:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-dates-numbers.md:55:7:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-dates-numbers.md:55:7:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-dates-numbers.md:55:17:oneAkamai.Passive:'are reserved' looks like passive voice.
+> test-vale/test-dates-numbers.md:57:15:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:59:9:oneAkamai.We:Try to avoid using first-person plural like 'ours'.
+> test-vale/test-dates-numbers.md:59:20:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-5 PM'.
+> test-vale/test-dates-numbers.md:59:23:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:60:37:oneAkamai.RangeTime:Use 'to' instead of a dash in 'AM-4 AM'.
+> test-vale/test-dates-numbers.md:62:15:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-dates-numbers.md:62:20:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-dates-numbers.md:64:19:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+> test-vale/test-dates-numbers.md:64:44:oneAkamai.Vocab:Verify your use of 'alert' with the A-Z word list.
+> test-vale/test-dates-numbers.md:65:20:oneAkamai.Negative:Form a negative number with an en dash, not a hyphen.
+> test-vale/test-dates-numbers.md:65:22:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-dates-numbers.md:65:34:oneAkamai.ComplexWords:Consider using 'change' instead of 'adjustment'.
+> test-vale/test-dates-numbers.md:65:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+435d434
+< test-vale/test-grammar.md:37:1:oneAkamai.OxfordComma:Use the Oxford comma in 'Configure the origin, update the DNS settings and test the connection. The report includes errors, warnings and suggestions. You can use certificates, API keys and tokens. The system supports HTTP, HTTPS and'.
+436a436
+> test-vale/test-grammar.md:37:1:oneAkamai.OxfordComma:Use the Oxford comma in 'Configure the origin, update the DNS settings and test the connection. The report includes errors, warnings and suggestions. You can use certificates, API keys and tokens. The system supports HTTP, HTTPS and'.
+471d470
+< test-vale/test-grammar.md:68:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+472a472
+> test-vale/test-grammar.md:68:1:oneAkamai.We:Try to avoid using first-person plural like 'Us'.
+505d504
+< test-vale/test-oas.yaml:8:30:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+506a506
+> test-vale/test-oas.yaml:8:30:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+521d520
+< test-vale/test-oas.yaml:28:68:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+522a522
+> test-vale/test-oas.yaml:28:68:oneAkamai.AvoidTerms:Flagged term: 'is comprised of'. See the Akamai style guide for the preferred alternative.
+545d544
+< test-vale/test-terms-substitutions.md:9:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+547a547
+> test-vale/test-terms-substitutions.md:9:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+580d579
+< test-vale/test-terms-substitutions.md:33:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+581a581
+> test-vale/test-terms-substitutions.md:33:1:oneAkamai.ComplexWords:Consider using 'use' instead of 'Utilize'.
+593d592
+< test-vale/test-terms-substitutions.md:44:1:oneAkamai.UIActions:Use 'click' instead of 'Click on' for UI interactions. See the User actions guide.
+594a594
+> test-vale/test-terms-substitutions.md:44:1:oneAkamai.UIActions:Use 'click' instead of 'Click on' for UI interactions. See the User actions guide.
+609d608
+< test-vale/test-terms-substitutions.md:56:1:oneAkamai.Wordiness:Consider using 'to' instead of 'In order to'.
+610a610
+> test-vale/test-terms-substitutions.md:56:1:oneAkamai.Wordiness:Consider using 'to' instead of 'In order to'.
+625,626d624
+< test-vale/test-terms-substitutions.md:65:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+< test-vale/test-terms-substitutions.md:65:4:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+627a626,627
+> test-vale/test-terms-substitutions.md:65:4:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+> test-vale/test-terms-substitutions.md:65:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+633d632
+< test-vale/test-terms-substitutions.md:68:13:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
+634a634
+> test-vale/test-terms-substitutions.md:68:13:oneAkamai.GeneralURL:For a general audience, use 'address' rather than 'URL'.
