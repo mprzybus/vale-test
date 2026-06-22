@@ -1,0 +1,182 @@
+18d17
+< test-vale/POC.md:6:1:oneAkamai.OxfordComma:Use the Oxford comma in 'I list one thing, second thing and'.
+19a19
+> test-vale/POC.md:6:1:oneAkamai.OxfordComma:Use the Oxford comma in 'I list one thing, second thing and'.
+42d41
+< test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.Abbreviations:Abbreviation issue: use 'URLs' instead of 'URL's'. See Abbreviations & acronyms guide.
+43a43
+> test-vale/test-abbreviations-acronyms.md:18:5:oneAkamai.Abbreviations:Abbreviation issue: use 'URLs' instead of 'URL's'. See Abbreviations & acronyms guide.
+48d47
+< test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Abbreviations:Abbreviation issue: use 'JPEGs' instead of 'JPEG's'. See Abbreviations & acronyms guide.
+49a49
+> test-vale/test-abbreviations-acronyms.md:20:5:oneAkamai.Abbreviations:Abbreviation issue: use 'JPEGs' instead of 'JPEG's'. See Abbreviations & acronyms guide.
+62d61
+< test-vale/test-abbreviations-acronyms.md:30:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+63a63
+> test-vale/test-abbreviations-acronyms.md:30:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+65d64
+< test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+66a66
+> test-vale/test-abbreviations-acronyms.md:30:18:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+90a91,138
+> test-vale/test-lists-structure.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-lists-structure.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-lists-structure.md:3:33:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-lists-structure.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-lists-structure.md:9:7:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-lists-structure.md:9:15:oneAkamai.ListStructure:Avoid 'multicolumn list'. See the Lists guide.
+> test-vale/test-lists-structure.md:9:64:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+> test-vale/test-lists-structure.md:9:66:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-lists-structure.md:11:4:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+> test-vale/test-lists-structure.md:11:4:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+> test-vale/test-lists-structure.md:13:26:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+> test-vale/test-lists-structure.md:13:26:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+> test-vale/test-lists-structure.md:13:47:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-lists-structure.md:17:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+> test-vale/test-lists-structure.md:17:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-lists-structure.md:17:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-lists-structure.md:19:25:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-lists-structure.md:19:25:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-lists-structure.md:20:16:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-lists-structure.md:21:11:oneAkamai.Acronyms:'TTL' has no definition.
+> test-vale/test-lists-structure.md:21:22:oneAkamai.Passive:'be bet' looks like passive voice.
+> test-vale/test-lists-structure.md:21:28:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+> test-vale/test-lists-structure.md:21:33:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-lists-structure.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+> test-vale/test-lists-structure.md:27:1:oneAkamai.OxfordComma:Use the Oxford comma in 'To complete the setup, configure the origin, update the DNS record and activate the rule. The platform supports caching, load balancing and traffic routing. Assign roles to developers, administrators and'.
+> test-vale/test-lists-structure.md:27:4:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+> test-vale/test-lists-structure.md:27:57:oneAkamai.Acronyms:'DNS' has no definition.
+> test-vale/test-lists-structure.md:33:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-lists-structure.md:33:46:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+> test-vale/test-lists-structure.md:35:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:36:1:oneAkamai.UIActions:Use 'select (when picking among UI options like checkboxes, radio buttons, or dropdowns)' instead of 'Choose' for UI interactions. See the User actions guide.
+> test-vale/test-lists-structure.md:36:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:36:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:37:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:37:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-lists-structure.md:38:24:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:42:10:oneAkamai.Dashes:Remove the spaces around ' — '.
+> test-vale/test-lists-structure.md:44:8:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-lists-structure.md:44:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:44:8:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+> test-vale/test-lists-structure.md:44:10:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+> test-vale/test-lists-structure.md:44:13:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+> test-vale/test-lists-structure.md:44:17:oneAkamai.Passive:'be spelled' looks like passive voice.
+> test-vale/test-lists-structure.md:45:36:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+> test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+152d199
+< test-vale/test-dates-numbers.md:54:20:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+154a202
+> test-vale/test-dates-numbers.md:54:20:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+178d225
+< test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+179a227
+> test-vale/test-headings.md:15:5:oneAkamai.Classification:Don't use language (such as 'Best') that is extreme.
+197d244
+< test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+198a246
+> test-vale/test-headings.md:35:14:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+205d252
+< test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+206a254
+> test-vale/test-headings.md:41:5:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+208,255d255
+< test-vale/test-lists-structure.md:1:3:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-lists-structure.md:1:18:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-lists-structure.md:3:33:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-lists-structure.md:7:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-lists-structure.md:9:7:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-lists-structure.md:9:15:oneAkamai.ListStructure:Avoid 'multicolumn list'. See the Lists guide.
+< test-vale/test-lists-structure.md:9:64:oneAkamai.Semicolons:Avoid semicolons. Use two short sentences instead.
+< test-vale/test-lists-structure.md:9:66:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-lists-structure.md:11:4:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+< test-vale/test-lists-structure.md:11:4:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+< test-vale/test-lists-structure.md:13:26:oneAkamai.AvoidTerms:Flagged term: '24x7'. See the Akamai style guide for the preferred alternative.
+< test-vale/test-lists-structure.md:13:26:oneAkamai.ListStructure:Avoid '24x7'. See the Lists guide.
+< test-vale/test-lists-structure.md:13:47:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-lists-structure.md:17:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+< test-vale/test-lists-structure.md:17:6:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-lists-structure.md:17:17:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-lists-structure.md:19:25:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:19:25:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-lists-structure.md:19:25:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-lists-structure.md:20:16:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-lists-structure.md:20:16:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-lists-structure.md:21:11:oneAkamai.Acronyms:'TTL' has no definition.
+< test-vale/test-lists-structure.md:21:22:oneAkamai.Passive:'be bet' looks like passive voice.
+< test-vale/test-lists-structure.md:21:28:oneAkamai.We:Try to avoid using first-person plural like 'we'.
+< test-vale/test-lists-structure.md:21:33:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-lists-structure.md:21:33:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-lists-structure.md:27:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=31) words). Aim for ~15 words per sentence; split if needed.
+< test-vale/test-lists-structure.md:27:1:oneAkamai.OxfordComma:Use the Oxford comma in 'To complete the setup, configure the origin, update the DNS record and activate the rule. The platform supports caching, load balancing and traffic routing. Assign roles to developers, administrators and'.
+< test-vale/test-lists-structure.md:27:4:oneAkamai.Classification:Don't use language (such as 'complete') that is extreme.
+< test-vale/test-lists-structure.md:27:57:oneAkamai.Acronyms:'DNS' has no definition.
+< test-vale/test-lists-structure.md:33:9:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-lists-structure.md:33:46:oneAkamai.Terms:Prefer 'MB' over 'mb'.
+< test-vale/test-lists-structure.md:35:11:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:36:1:oneAkamai.UIActions:Use 'select (when picking among UI options like checkboxes, radio buttons, or dropdowns)' instead of 'Choose' for UI interactions. See the User actions guide.
+< test-vale/test-lists-structure.md:36:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:36:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:37:17:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:37:37:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-lists-structure.md:38:24:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:42:10:oneAkamai.Dashes:Remove the spaces around ' — '.
+< test-vale/test-lists-structure.md:44:8:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-lists-structure.md:44:8:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:44:8:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+< test-vale/test-lists-structure.md:44:10:oneAkamai.Numbers:In running text, spell out numbers one through nine. Use numerals for 10 and above.
+< test-vale/test-lists-structure.md:44:13:oneAkamai.We:Try to avoid using first-person plural like 'us'.
+< test-vale/test-lists-structure.md:44:17:oneAkamai.Passive:'be spelled' looks like passive voice.
+< test-vale/test-lists-structure.md:45:36:oneAkamai.Ranges:In most cases, use 'from' or 'through' to describe a range of numbers.
+< test-vale/test-lists-structure.md:45:36:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+259d258
+< test-vale/test-avoid-terms.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=34) words). Aim for ~15 words per sentence; split if needed.
+260a260
+> test-vale/test-avoid-terms.md:9:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=34) words). Aim for ~15 words per sentence; split if needed.
+282d281
+< test-vale/test-avoid-terms.md:24:12:oneAkamai.Passive:'is comprised' looks like passive voice.
+283a283
+> test-vale/test-avoid-terms.md:24:12:oneAkamai.Passive:'is comprised' looks like passive voice.
+293d292
+< test-vale/test-avoid-terms.md:32:1:oneAkamai.Competition:Mention of competition (such as 'Cloudflare') needs legal revisions.
+294a294
+> test-vale/test-avoid-terms.md:32:1:oneAkamai.Competition:Mention of competition (such as 'Cloudflare') needs legal revisions.
+296d295
+< test-vale/test-avoid-terms.md:33:8:oneAkamai.Competition:Mention of competition (such as 'AWS') needs legal revisions.
+297a297
+> test-vale/test-avoid-terms.md:33:8:oneAkamai.Competition:Mention of competition (such as 'AWS') needs legal revisions.
+364d363
+< test-vale/test-grammar.md:15:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+365a365
+> test-vale/test-grammar.md:15:4:oneAkamai.Headings:Headings should use sentence-style capitalization. Only capitalize the first word and proper nouns.
+492d491
+< test-vale/test-oas.yaml:5:14:oneAkamai.TermSubstitutions:Use 'use' instead of 'utilize'. See the Akamai A–Z word guide.
+493a493
+> test-vale/test-oas.yaml:5:14:oneAkamai.TermSubstitutions:Use 'use' instead of 'utilize'. See the Akamai A–Z word guide.
+515d514
+< test-vale/test-oas.yaml:18:17:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+516a516
+> test-vale/test-oas.yaml:18:17:oneAkamai.RangeFormat:Use an en dash in a range of numbers.
+563d562
+< test-vale/test-terms-substitutions.md:20:20:oneAkamai.Terms:Prefer 'afterward' over 'afterwards'.
+564a564
+> test-vale/test-terms-substitutions.md:20:20:oneAkamai.Terms:Prefer 'afterward' over 'afterwards'.
+580d579
+< test-vale/test-terms-substitutions.md:33:1:oneAkamai.TermSubstitutions:Use 'use' instead of 'Utilize'. See the Akamai A–Z word guide.
+581a581
+> test-vale/test-terms-substitutions.md:33:1:oneAkamai.TermSubstitutions:Use 'use' instead of 'Utilize'. See the Akamai A–Z word guide.
+593d592
+< test-vale/test-terms-substitutions.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=70) words). Aim for ~15 words per sentence; split if needed.
+594a594
+> test-vale/test-terms-substitutions.md:44:1:oneAkamai.SentenceLength:Sentence is too long (%!d(string=70) words). Aim for ~15 words per sentence; split if needed.
+609d608
+< test-vale/test-terms-substitutions.md:56:1:oneAkamai.Wordiness:Consider using 'to' instead of 'In order to'.
+610a610
+> test-vale/test-terms-substitutions.md:56:1:oneAkamai.Wordiness:Consider using 'to' instead of 'In order to'.
+626d625
+< test-vale/test-terms-substitutions.md:65:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
+627a627
+> test-vale/test-terms-substitutions.md:65:4:oneAkamai.HeadingAcronyms:Avoid using acronyms in a title or heading.
