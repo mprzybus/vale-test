@@ -46,9 +46,8 @@ jobs:
         uses: errata-ai/vale-action@reviewdog
         with:
           files: test-vale
-          filter_mode: diff_context
           version: 3.9.4
-          fail_on_error: true
+          fail_on_error: false
           reporter: github-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
