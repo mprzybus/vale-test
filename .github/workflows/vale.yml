@@ -14,6 +14,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
+      checks: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,18 +31,18 @@ jobs:
             test-vale/**/*.yml
             test-vale/**/*.txt
 
-      # Inline review comments. The Review API sends every comment in a single
-      # request, so suggestion-level noise overflows it and reviewdog dies with
-      # "unexpected EOF" — cap the inline feedback at errors.
-      - name: Run Vale (PR — inline review comments)
+      # 150 findings is far more than one Review API request carries, so
+      # github-pr-review silently drops most of them. The Checks API batches at
+      # 50 annotations per request, so github-pr-check delivers all of them.
+      - name: Run Vale (PR — inline annotations on changed lines)
         if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'pull_request'
         uses: errata-ai/vale-action@reviewdog
         with:
           files: test-vale
           version: 3.9.4
-          min_alert_level: error
+          min_alert_level: suggestion
           filter_mode: added
-          reporter: github-pr-review
+          reporter: github-pr-check
           fail_on_error: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
