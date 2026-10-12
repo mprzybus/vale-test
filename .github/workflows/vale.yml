@@ -23,13 +23,24 @@ jobs:
         with:
           files: 'test-vale/**'
 
-      - name: Run Vale on changed files only
-        if: steps.changed-files.outputs.any_changed == 'true'
+      - name: Run Vale on changed files (PR with inline comments)
+        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'pull_request'
         uses: errata-ai/vale-action@reviewdog
         with:
           files: ${{ steps.changed-files.outputs.all_changed_files }}
           version: 3.9.4
           fail_on_error: true
           reporter: github-pr-review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Vale on changed files (push with action logs)
+        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'push'
+        uses: errata-ai/vale-action@reviewdog
+        with:
+          files: ${{ steps.changed-files.outputs.all_changed_files }}
+          version: 3.9.4
+          fail_on_error: true
+          reporter: github-check
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
