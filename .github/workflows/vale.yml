@@ -31,24 +31,24 @@ jobs:
             test-vale/**/*.yml
             test-vale/**/*.txt
 
-      # 150 findings is far more than one Review API request carries, so
-      # github-pr-review silently drops most of them. The Checks API batches at
-      # 50 annotations per request, so github-pr-check delivers all of them.
-      - name: Run Vale (PR — inline annotations on changed lines)
+      # Errors only, inline on changed lines. Uses the Checks API, which batches
+      # at 50 annotations per request — github-pr-review packs them into a single
+      # request and GitHub truncates it around 100, dropping most findings.
+      - name: Run Vale (PR — inline comments, errors only)
         if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'pull_request'
         uses: errata-ai/vale-action@reviewdog
         with:
           files: test-vale
           version: 3.9.4
-          min_alert_level: suggestion
-          filter_mode: error
+          min_alert_level: error
+          filter_mode: added
           reporter: github-pr-check
           fail_on_error: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Full detail, every severity, in the Actions run — no API payload limit.
-      - name: Run Vale (push — full report in action log)
+      # Full report: every severity, every line, in the Actions run.
+      - name: Run Vale (push — full report, all severities)
         if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'push'
         uses: errata-ai/vale-action@reviewdog
         with:
