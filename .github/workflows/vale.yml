@@ -41,7 +41,7 @@ jobs:
           files: test-vale
           version: 3.9.4
           min_alert_level: suggestion
-          filter_mode: added
+          filter_mode: error
           reporter: github-pr-check
           fail_on_error: false
         env:
