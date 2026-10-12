@@ -48,8 +48,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Full report: every severity, every line, in the Actions run.
-      - name: Run Vale (push — full report, all severities)
-        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'push'
+      - name: Run Vale (PR — full report, all severities)
+        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'pull_request'
         uses: errata-ai/vale-action@reviewdog
         with:
           files: test-vale
