@@ -1,9 +1,6 @@
-name: Vale Lint (diff only)
+name: Vale Lint (pull requests)
 
 on:
-  push:
-    paths:
-      - 'test-vale/**'
   pull_request:
     paths:
       - 'test-vale/**'
@@ -31,11 +28,11 @@ jobs:
             test-vale/**/*.yml
             test-vale/**/*.txt
 
-      # Errors only, inline on changed lines. Uses the Checks API, which batches
-      # at 50 annotations per request — github-pr-review packs them into a single
-      # request and GitHub truncates it around 100, dropping most findings.
-      - name: Run Vale (PR — inline comments, errors only)
-        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'pull_request'
+      # Inline comments: errors only, on changed lines. github-pr-check uses the
+      # Checks API, which batches at 50 annotations per request. github-pr-review
+      # packs them all into one request that GitHub truncates around 100.
+      - name: Vale — inline comments (errors only)
+        if: steps.changed-files.outputs.any_changed == 'true'
         uses: errata-ai/vale-action@reviewdog
         with:
           files: test-vale
@@ -47,16 +44,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Full report: every severity, every line, in the Actions run.
-      - name: Run Vale (push — full report, all severities)
-        if: steps.changed-files.outputs.any_changed == 'true' && github.event_name == 'push'
-        uses: errata-ai/vale-action@reviewdog
-        with:
-          files: test-vale
-          version: 3.9.4
-          min_alert_level: suggestion
-          filter_mode: nofilter
-          reporter: github-check
-          fail_on_error: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Full report, every severity, in the run summary. Deliberately NOT a
+      # reviewdog reporter: those emit annotations that surface inline in Files
+      # Changed, and inline output is meant to stay errors-only.
+      - name: Vale — full report (all severities)
+        if: ${{ !cancelled() && steps.changed-files.outputs.any_changed == 'true' }}
+        run: |
+          curl -sSfL https://github.com/errata-ai/vale/releases/download/v3.9.4/vale_3.9.4_Linux_64-bit.tar.gz \
+            | tar -xz -C /tmp vale
+          mkdir -p styles/Vocab/Blog
+          /tmp/vale --no-exit --output=JSON --minAlertLevel=suggestion test-vale > vale.json
+          python3 .github/scripts/vale-summary.py vale.json >> "$GITHUB_STEP_SUMMARY"
