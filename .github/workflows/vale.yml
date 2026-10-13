@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Get changed files
         id: changed-files
@@ -28,30 +29,86 @@ jobs:
             test-vale/**/*.yml
             test-vale/**/*.txt
 
-      # Inline comments: errors only, on changed lines. github-pr-check uses the
-      # Checks API, which batches at 50 annotations per request. github-pr-review
-      # packs them all into one request that GitHub truncates around 100.
-      - name: Vale — inline comments (errors only)
-        if: steps.changed-files.outputs.any_changed == 'true'
-        uses: errata-ai/vale-action@reviewdog
-        with:
-          files: test-vale
-          version: 3.9.4
-          min_alert_level: error
-          filter_mode: added
-          reporter: github-pr-check
-          fail_on_error: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # Full report, every severity, in the run summary. Deliberately NOT a
-      # reviewdog reporter: those emit annotations that surface inline in Files
-      # Changed, and inline output is meant to stay errors-only.
       - name: Vale — full report (all severities)
         if: ${{ !cancelled() && steps.changed-files.outputs.any_changed == 'true' }}
+        id: vale-report
         run: |
           curl -sSfL https://github.com/errata-ai/vale/releases/download/v3.9.4/vale_3.9.4_Linux_64-bit.tar.gz \
             | tar -xz -C /tmp vale
           mkdir -p styles/Vocab/Blog
           /tmp/vale --no-exit --output=JSON --minAlertLevel=suggestion test-vale > vale.json
           python3 .github/scripts/vale-summary.py vale.json >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Vale — inline comments (errors only)
+        if: ${{ !cancelled() && steps.vale-report.outcome == 'success' }}
+        uses: actions/github-script@v7
+        with:
+          retries: 3
+          retry-exempt-status-codes: 400,401,404,422
+          script: |
+            const fs = require('fs');
+            const { owner, repo } = context.repo;
+            const pull_number = context.issue.number;
+            const commit_id = context.payload.pull_request.head.sha;
+            const report = JSON.parse(fs.readFileSync('vale.json', 'utf8'));
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner, repo, pull_number, per_page: 100
+            });
+            const addedLines = new Map();
+            for (const file of files) {
+              const lines = new Set();
+              let line = 0;
+              for (const text of (file.patch || '').split('\n')) {
+                const hunk = /^@@ -\d+(?:,\d+)? \+(\d+)(?:,\d+)? @@/.exec(text);
+                if (hunk) {
+                  line = Number(hunk[1]);
+                } else if (text.startsWith('+')) {
+                  lines.add(line++);
+                } else if (text.startsWith(' ')) {
+                  line++;
+                }
+              }
+              addedLines.set(file.filename, lines);
+              if (!file.patch && file.status !== 'removed') {
+                core.warning(`No diff available for ${file.filename}; inline findings skipped.`);
+              }
+            }
+            const existing = await github.paginate(github.rest.pulls.listReviewComments, {
+              owner, repo, pull_number, per_page: 100
+            });
+            const key = comment => JSON.stringify([comment.path, comment.line, comment.body]);
+            const posted = new Set(existing
+              .filter(comment => comment.user?.type === 'Bot' && comment.side === 'RIGHT')
+              .map(key));
+            const comments = [];
+            let eligible = 0;
+            for (const [filename, alerts] of Object.entries(report)) {
+              const path = filename.replaceAll('\\', '/').replace(/^\.\//, '');
+              for (const alert of alerts) {
+                if (alert.Severity !== 'error' || !addedLines.get(path)?.has(alert.Line)) continue;
+                eligible++;
+                const comment = {
+                  path, line: alert.Line, side: 'RIGHT',
+                  body: `**Vale: ${alert.Check}**\n\n${alert.Message}\n\n<!-- vale-inline -->`
+                };
+                const fingerprint = key(comment);
+                if (posted.has(fingerprint)) continue;
+                posted.add(fingerprint);
+                comments.push(comment);
+              }
+            }
+            let published = 0;
+            try {
+              for (let offset = 0; offset < comments.length; offset += 30) {
+                const batch = comments.slice(offset, offset + 30);
+                await github.rest.pulls.createReview({
+                  owner, repo, pull_number, commit_id, event: 'COMMENT', comments: batch
+                });
+                published += batch.length;
+              }
+            } finally {
+              await core.summary.addRaw(
+                `\n### Vale inline comments\n\n${eligible} errors on added lines; ` +
+                `${published} new comments posted; ${comments.length - published} pending.\n`
+              ).write();
+            }
